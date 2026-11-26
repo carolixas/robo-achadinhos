@@ -75,6 +75,15 @@ Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em 
 3. **Agende a produção de amanhã** (a produção roda na conversa principal com a Carol, porque tarefas com pastas do Mac fecham em 5 s): `send_later` para amanhã 08:13 `[America/Sao_Paulo]`, nome "Produção diária: 2 Reels + 1 carrossel", initiation `human_schedule`, com a mesma mensagem que te acordou hoje. Confira com `list_triggers` que ficou 1 só.
 4. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
 
+## 8. Resultados dos links (todo dia, depois de avisar a pauta)
+Só LER os painéis (nada de sacar, aceitar termos ou mudar configuração). Login/captcha: anotar "precisa login" e seguir.
+1. Shopee: https://affiliate.shopee.com.br/report/click_report (cliques de ontem; "Total de N") e /report/conversion_report (pedidos, valor, comissão).
+2. Mercado Livre: https://www.mercadolivre.com.br/afiliados/dashboard (cliques, ordens, vendas e ganho estimados).
+3. Amazon: https://associados.amazon.com.br/p/reporting/earnings (cliques, pedidos, ganhos; conta achadosd09778-20; escolher "Ontem" se der).
+4. AliExpress: https://portals.aliexpress.com/affiportals/web/home.htm (cliques, pedidos pagos, ganhos em US$; 2 dias de atraso).
+Na aba **Resultados** da planilha: 4 linhas novas abaixo da última (A data de hoje · B loja · C período lido, ex. "ontem 26/11" · D cliques · E pedidos · F vendas R$ · G comissão R$ · H observação). Nunca apagar linhas antigas; não duplicar se já houver linhas de hoje. Nunca inventar número.
+Na mensagem da pauta, acrescente 1 linha: "Ontem: X cliques · Y vendas · R$ Z de comissão" (se houve venda, comece com 💸).
+
 ## Lições do 1º dia (26/11)
 - **Shopee pode mostrar captcha** depois de ~10 buscas seguidas pela API (página `/verify/captcha`). Não resolva: espere, faça no máximo 5 buscas por rodada com 2 s entre elas, ou use outra loja nesse dia.
 - **Amazon funciona muito bem por fetch** de dentro de uma aba da amazon.com.br: `fetch('/s?k=<termo>')` → DOMParser → `div[data-component-type="s-search-result"]` (ASIN em `data-asin`, preço `.a-price .a-offscreen`, nota no `aria-label` "de 5 estrelas", avaliações no link `#customerReviews`, patrocinado `.puis-sponsored-label-text`). Fotos grandes: na página `/dp/<ASIN>` os `"hiRes":"https://..."` do HTML.
