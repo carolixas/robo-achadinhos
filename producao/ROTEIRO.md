@@ -72,6 +72,15 @@ Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em 
 2. Aba **Pauta**: uma linha por post — A id · B "Reels"/"Carrossel" · C tema + loja · D horário ({"dateTime": ...}) · E `{"markdown":"[ver prévia](https://carolixas.github.io/robo-achadinhos/m/posts/<id>/)"}` · F "Aguardando" · G "Aguardando aprovação". Não mexa em outras linhas.
 3. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
 
+## Lições do 1º dia (26/11)
+- **Shopee pode mostrar captcha** depois de ~10 buscas seguidas pela API (página `/verify/captcha`). Não resolva: espere, faça no máximo 5 buscas por rodada com 2 s entre elas, ou use outra loja nesse dia.
+- **Amazon funciona muito bem por fetch** de dentro de uma aba da amazon.com.br: `fetch('/s?k=<termo>')` → DOMParser → `div[data-component-type="s-search-result"]` (ASIN em `data-asin`, preço `.a-price .a-offscreen`, nota no `aria-label` "de 5 estrelas", avaliações no link `#customerReviews`, patrocinado `.puis-sponsored-label-text`). Fotos grandes: na página `/dp/<ASIN>` os `"hiRes":"https://..."` do HTML.
+- **Para escolher fotos**, monte uma grade de miniaturas numeradas na própria aba (innerHTML) e tire 1 screenshot — muito mais rápido que abrir produto por produto.
+- **Mercado Livre**: o fetch da busca não traz os cards (são montados por JS). Abra a busca na aba e leia os `.poly-card` da página já carregada (nota e vendidos em `.poly-component__review-compacted`, ex. "4.9 | +500 vendidos"; anúncios têm link `click1.mercadolivre`).
+- **Foto de produto em fundo branco**: no carrossel o gerador já detecta e centraliza no branco com texto escuro. No Reels, gere antes um fundo 1080×1920 branco com o produto centralizado (≈960 px) e use como `imagem`.
+- Evite foto com comida/objetos fora do tema (ex.: cesto com pão num post de quarto) — a Carol reprova.
+- Não repita a mesma foto como capa e como item; se precisar, use `zoom`/`fy` diferentes.
+
 ---
 
 # Sincronização (tarefa de hora em hora, na nuvem)
