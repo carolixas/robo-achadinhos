@@ -216,17 +216,39 @@ def reels(spec, base):
 CW, CH = 1080, 1350
 
 
+def fundo_branco(src):
+    """True se a foto é produto em fundo branco (os 4 cantos claros)."""
+    g = src.convert("L")
+    w, h = g.size
+    k = max(4, min(w, h) // 25)
+    cantos = [g.crop(b) for b in ((0, 0, k, k), (w - k, 0, w, k), (0, h - k, k, h), (w - k, h - k, w, h))]
+    return all(sum(c.getdata()) / (k * k) > 235 for c in cantos)
+
+
 def slide_item(base, it):
     src = abrir(base, it["imagem"])
-    fr = src.resize((CW, CH), Image.LANCZOS, box=caixa(src, CW, CH, it.get("zoom", 1.0), it.get("fx", .5), it.get("fy", .5))).convert("RGBA")
+    if it.get("layout", "auto") == "branco" or (it.get("layout", "auto") == "auto" and fundo_branco(src)):
+        fr = Image.new("RGBA", (CW, CH), (255, 255, 255, 255))
+        area_w, area_h = CW - 160, CH - 380
+        t = src.copy()
+        t.thumbnail((area_w, area_h), Image.LANCZOS)
+        fr.paste(t, ((CW - t.width) // 2, 80 + (area_h - t.height) // 2))
+    else:
+        fr = src.resize((CW, CH), Image.LANCZOS, box=caixa(src, CW, CH, it.get("zoom", 1.0), it.get("fx", .5), it.get("fy", .5))).convert("RGBA")
     L = Image.new("RGBA", (CW, CH), (0, 0, 0, 0))
-    degrade(L, CW, 420, 120, de_baixo=True)
-    d = ImageDraw.Draw(L)
     x, y = 90, CH - 215
-    d.line((x, y, x + 56, y), fill=(255, 255, 255, 230), width=2)
+    # fundo claro (foto de produto em fundo branco) -> texto escuro; senão texto branco com sombra
+    regiao = fr.convert("L").crop((x - 20, y - 20, min(CW, x + 700), y + 160))
+    claro = sum(regiao.getdata()) / (regiao.width * regiao.height) > 175
+    cor = (45, 40, 35, 255) if claro else (255, 255, 255, 255)
+    if not claro:
+        degrade(L, CW, 420, 120, de_baixo=True)
+    d = ImageDraw.Draw(L)
+    d.line((x, y, x + 56, y), fill=cor[:3] + (230,), width=2)
     nome = it["nome"] + (" " + it["detalhe"] if it.get("detalhe") else "")
-    texto_sombra(L, (x, y + 26), nome, F(HEROS, 40), anchor="la", blur=8, salpha=120)
-    texto_sombra(L, (x, y + 84), it["preco"], F(SERIF_I, 64), anchor="la", blur=8, salpha=120)
+    sal = 0 if claro else 120
+    texto_sombra(L, (x, y + 26), nome, F(HEROS, 40), fill=cor, anchor="la", blur=8, salpha=sal)
+    texto_sombra(L, (x, y + 84), it["preco"], F(SERIF_I, 64), fill=cor, anchor="la", blur=8, salpha=sal)
     fr.alpha_composite(L)
     return fr.convert("RGB")
 

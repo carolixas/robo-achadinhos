@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "id": "2026-11-26-reels-a",
+    "tipo": "reels",
+    "tema": "Achados pro quarto",
+    "quando": "2026-11-26T12:30:00-03:00",
+    "status": "aguardando",
+    "legenda": "quarto aconchegante gastando pouco 🤍\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
+    "video": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-a/reels.mp4",
+    "capa": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-a/capa.jpg",
+    "pasta_mac": "posts/08-reels-quarto-amazon",
+    "produtos": [
+      {
+        "nome": "capa de almofada bouclê",
+        "preco": "R$ 35",
+        "preco_num": 35.09,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4tiJXiY"
+      },
+      {
+        "nome": "tapete felpudo pra beira da cama",
+        "preco": "R$ 51",
+        "preco_num": 51.2,
+        "loja": "Amazon",
+        "link": "https://amzn.to/3X7FWSC"
+      },
+      {
+        "nome": "porta-retrato texturizado",
+        "preco": "R$ 21",
+        "preco_num": 20.69,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4jdaVnt"
+      },
+      {
+        "nome": "vaso de vidro canelado",
+        "preco": "R$ 21",
+        "preco_num": 21.32,
+        "loja": "Amazon",
+        "link": "https://amzn.to/3WSkQaS"
+      },
+      {
+        "nome": "cesto de fibra natural",
+        "preco": "R$ 43",
+        "preco_num": 43.21,
+        "loja": "Amazon",
+        "link": "https://amzn.to/3X6oRbJ"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-carrossel",
+    "tipo": "carrossel",
+    "tema": "Mesa posta bonita",
+    "quando": "2026-11-26T18:00:00-03:00",
+    "status": "aguardando",
+    "legenda": "mesa posta bonita gastando pouco ✨\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
+    "imagens": [
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/01.jpg",
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/02.jpg",
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/03.jpg",
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/04.jpg",
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/05.jpg",
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/06.jpg",
+      "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/07.jpg"
+    ],
+    "pasta_mac": "posts/09-carrossel-mesa-posta-amazon",
+    "produtos": [
+      {
+        "nome": "jogo americano redondo (4 un.)",
+        "preco": "R$ 30",
+        "preco_num": 29.99,
+        "loja": "Amazon",
+        "link": "https://amzn.to/3VbAwFF"
+      },
+      {
+        "nome": "taças de vidro diamond (6 un.)",
+        "preco": "R$ 32",
+        "preco_num": 31.9,
+        "loja": "Amazon",
+        "link": "https://amzn.to/3UZ0hcd"
+      },
+      {
+        "nome": "copos canelados com borda dourada (6 un.)",
+        "preco": "R$ 40",
+        "preco_num": 39.9,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4eWVper"
+      },
+      {
+        "nome": "anéis de guardanapo de fibra",
+        "preco": "R$ 19",
+        "preco_num": 19.0,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4tiXpDA"
+      },
+      {
+        "nome": "castiçal de vidro",
+        "preco": "R$ 16",
+        "preco_num": 15.6,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4A3YKkc"
+      },
+      {
+        "nome": "jarra de vidro 1,2 L",
+        "preco": "R$ 30",
+        "preco_num": 29.9,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4tiXuXU"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-26-reels-b",
+    "tipo": "reels",
+    "tema": "Banheiro com cara de spa",
+    "quando": "2026-11-26T20:30:00-03:00",
+    "status": "aguardando",
+    "legenda": "banheiro com cara de spa 🫧\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
+    "video": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-b/reels.mp4",
+    "capa": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-b/capa.jpg",
+    "pasta_mac": "posts/10-reels-banheiro-amazon",
+    "produtos": [
+      {
+        "nome": "frascos âmbar (kit com 3)",
+        "preco": "R$ 35",
+        "preco_num": 34.9,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4CmAxHq"
+      },
+      {
+        "nome": "porta-escova de vidro canelado",
+        "preco": "R$ 12",
+        "preco_num": 11.69,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4ts7pL2"
+      },
+      {
+        "nome": "cestos de bambu (kit com 3)",
+        "preco": "R$ 47",
+        "preco_num": 47.4,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4zLKNGH"
+      },
+      {
+        "nome": "tapete de algodão oval",
+        "preco": "R$ 31",
+        "preco_num": 30.88,
+        "loja": "Amazon",
+        "link": "https://amzn.to/48C54n7"
+      },
+      {
+        "nome": "cesto de roupa de bambu",
+        "preco": "R$ 45",
+        "preco_num": 44.64,
+        "loja": "Amazon",
+        "link": "https://amzn.to/3UZ0RXr"
+      },
+      {
+        "nome": "kit banheiro branco e bambu",
+        "preco": "R$ 68",
+        "preco_num": 68.3,
+        "loja": "Amazon",
+        "link": "https://amzn.to/4zJe4BI"
+      }
+    ]
+  }
+]
