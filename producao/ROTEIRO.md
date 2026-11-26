@@ -70,7 +70,8 @@ Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em 
 ## 7. Guardar no Mac e avisar
 1. `device_commit_files`: vídeo/slides e um `legenda-e-links.txt` (legenda + lista numerada de produtos com links) em `posts/NN-<slug>/`.
 2. Aba **Pauta**: uma linha por post — A id · B "Reels"/"Carrossel" · C tema + loja · D horário ({"dateTime": ...}) · E `{"markdown":"[ver prévia](https://carolixas.github.io/robo-achadinhos/m/posts/<id>/)"}` · F "Aguardando" · G "Aguardando aprovação". Não mexa em outras linhas.
-3. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
+3. **Agende a produção de amanhã** (a produção roda na conversa principal com a Carol, porque tarefas com pastas do Mac fecham em 5 s): `send_later` para amanhã 08:13 `[America/Sao_Paulo]`, nome "Produção diária: 2 Reels + 1 carrossel", initiation `human_schedule`, com a mesma mensagem que te acordou hoje. Confira com `list_triggers` que ficou 1 só.
+4. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
 
 ## Lições do 1º dia (26/11)
 - **Shopee pode mostrar captcha** depois de ~10 buscas seguidas pela API (página `/verify/captcha`). Não resolva: espere, faça no máximo 5 buscas por rodada com 2 s entre elas, ou use outra loja nesse dia.
