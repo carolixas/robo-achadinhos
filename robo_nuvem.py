@@ -143,6 +143,8 @@ def main():
     if not chave or not segredo:
         print("Faltam os secrets ALIEXPRESS_APP_KEY / ALIEXPRESS_APP_SECRET no repositório.")
         sys.exit(1)
+    # diagnóstico sem revelar valores: só o formato
+    print(f"App Key: {len(chave)} caracteres, só números: {chave.isdigit()} | Secret: {len(segredo)} caracteres")
 
     cfg = carregar_config()
     historico = {}
