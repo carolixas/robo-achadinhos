@@ -121,7 +121,7 @@
     "tipo": "reels",
     "tema": "Banheiro com cara de spa",
     "quando": "2026-11-26T20:30:00-03:00",
-    "status": "aprovado",
+    "status": "publicado",
     "legenda": "banheiro com cara de spa 🫧\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
     "video": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-b/reels.mp4",
     "capa": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-b/capa.jpg",
@@ -169,6 +169,10 @@
         "loja": "Amazon",
         "link": "https://amzn.to/4jfANPE"
       }
-    ]
+    ],
+    "teste_reels": true,
+    "media_id": "18027398753719007",
+    "link": "https://www.instagram.com/reel/DgOSjAUT3pa/",
+    "publicado_em": "2026-11-26T20:30-03:00"
   }
 ]
