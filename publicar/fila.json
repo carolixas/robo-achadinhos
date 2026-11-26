@@ -56,7 +56,7 @@
     "tipo": "carrossel",
     "tema": "Mesa posta bonita",
     "quando": "2026-11-26T18:00:00-03:00",
-    "status": "aprovado",
+    "status": "publicado",
     "legenda": "mesa posta bonita gastando pouco ✨\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
     "imagens": [
       "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-carrossel/01.jpg",
@@ -111,7 +111,10 @@
         "loja": "Amazon",
         "link": "https://amzn.to/4A9gsTD"
       }
-    ]
+    ],
+    "media_id": "18080813969723525",
+    "link": "https://www.instagram.com/p/DgOBYqjjjDP/",
+    "publicado_em": "2026-11-26T18:00-03:00"
   },
   {
     "id": "2026-11-26-reels-b",
