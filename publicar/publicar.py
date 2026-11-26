@@ -17,6 +17,11 @@ IG_ID = os.environ.get("IG_USER_ID", "17841400158670151")
 TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 TESTE = os.environ.get("TESTE") == "1"
 FILA = os.path.join(os.path.dirname(__file__), "fila.json")
+# Reels saem como "teste" (Testes de Reels): primeiro só para quem não segue;
+# se for bem nas primeiras ~72 h, o Instagram compartilha sozinho com os seguidores
+# e no perfil (SS_PERFORMANCE). Um post pode desligar com "teste_reels": false.
+TESTE_REELS = True
+TRIAL = json.dumps({"graduation_strategy": "SS_PERFORMANCE"})
 
 
 def chamar(metodo, caminho, **params):
@@ -49,10 +54,21 @@ def esperar_pronto(cid, limite=600):
 
 def criar(post):
     if post["tipo"] == "reels":
-        p = dict(media_type="REELS", video_url=post["video"], caption=post["legenda"], share_to_feed="true")
+        p = dict(media_type="REELS", video_url=post["video"], caption=post["legenda"])
         if post.get("capa"):
             p["cover_url"] = post["capa"]
-        cid = chamar("POST", f"{IG_ID}/media", **p)["id"]
+        if post.get("teste_reels", TESTE_REELS):
+            try:
+                cid = chamar("POST", f"{IG_ID}/media", trial_params=TRIAL, **p)["id"]
+                post["teste_reels"] = True
+            except RuntimeError as e:
+                # conta ainda não pode usar Testes de Reels: publica como Reels normal
+                post["teste_reels"] = False
+                post["teste_reels_obs"] = "Instagram recusou o modo teste: " + str(e)[:200]
+                print("  modo teste recusado, indo como Reels normal:", e)
+                cid = chamar("POST", f"{IG_ID}/media", share_to_feed="true", **p)["id"]
+        else:
+            cid = chamar("POST", f"{IG_ID}/media", share_to_feed="true", **p)["id"]
         esperar_pronto(cid)
         return cid
     if post["tipo"] == "carrossel":
