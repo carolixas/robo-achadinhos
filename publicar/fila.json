@@ -4,7 +4,7 @@
     "tipo": "reels",
     "tema": "Achados pro quarto",
     "quando": "2026-11-26T12:30:00-03:00",
-    "status": "aprovado",
+    "status": "publicado",
     "legenda": "quarto aconchegante gastando pouco 🤍\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
     "video": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-a/reels.mp4",
     "capa": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-26-reels-a/capa.jpg",
@@ -45,7 +45,11 @@
         "loja": "Amazon",
         "link": "https://amzn.to/4jfDh0u"
       }
-    ]
+    ],
+    "teste_reels": true,
+    "media_id": "18119417558607770",
+    "link": "https://www.instagram.com/reel/DgNbwBxxJs_/",
+    "publicado_em": "2026-11-26T12:31-03:00"
   },
   {
     "id": "2026-11-26-carrossel",
