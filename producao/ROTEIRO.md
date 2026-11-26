@@ -32,8 +32,8 @@ Critérios: estética clean/aconchegante/"parece caro" (neutros, madeira, vidro,
 
 ## 3. Links de afiliado (gerar só para os escolhidos)
 - **Shopee**: https://affiliate.shopee.com.br/offer/custom_link → cole até 5 links de produto (um por linha) na caixa de texto (form_input), clique em "Obter link" e copie os `https://s.shopee.com.br/...`. ID de afiliado: 18315280280.
-- **Amazon** (tag `carolixas-20`): numa aba da amazon.com.br rode
-  `fetch('/associates/sitestripe/getShortUrl?longUrl='+encodeURIComponent('https://www.amazon.com.br/dp/<ASIN>?tag=carolixas-20')+'&marketplaceId=526970').then(r=>r.json())` → `shortUrl` (`https://amzn.to/...`).
+- **Amazon** (tag `achadosd09778-20` (conta de Associados do perfil de achadinhos; carolixas-20 é a conta antiga, não usar)): numa aba da amazon.com.br rode
+  `fetch('/associates/sitestripe/getShortUrl?longUrl='+encodeURIComponent('https://www.amazon.com.br/dp/<ASIN>?tag=achadosd09778-20')+'&marketplaceId=526970').then(r=>r.json())` → `shortUrl` (`https://amzn.to/...`).
 - **Mercado Livre**: na página do produto (logada), use a barra de afiliados do topo ("Compartilhar"/"Gerar link") e copie o `https://meli.la/...`.
 - Se não conseguir o link de afiliado de um produto, troque o produto.
 
