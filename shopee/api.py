@@ -31,12 +31,14 @@ def buscar(termo, limite=20):
     campos = ["itemId shopId productName priceMin ratingStar sales imageUrl offerLink commissionRate",
               "itemId productName priceMin ratingStar sales imageUrl offerLink"]
     erro = None
-    for c in campos:
-        q = "query{productOfferV2(keyword:%s,sortType:2,page:1,limit:%d){nodes{%s}}}" % (k, int(limite), c)
+    # a API às vezes devolve "System Error" (10000): tenta de novo com outro tamanho/campos
+    for tentativa, (c, lim) in enumerate([(campos[0], limite), (campos[1], limite), (campos[0], 20), (campos[1], 10)]):
+        q = "query{productOfferV2(keyword:%s,sortType:2,page:1,limit:%d){nodes{%s}}}" % (k, int(lim), c)
         try:
             return gql(q)["productOfferV2"]["nodes"]
         except RuntimeError as e:
             erro = e
+            time.sleep(2)
     raise erro
 
 
