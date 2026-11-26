@@ -1,0 +1,25 @@
+name: Fotos do canal (Shopee)
+on:
+  push:
+    paths: ["producao/fotos_canal.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fotos-canal
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pillow
+      - run: python producao/fotos_canal.py
+      - name: Guardar
+        run: |
+          git config user.name "robo-achadinhos"
+          git config user.email "robo-achadinhos@users.noreply.github.com"
+          git add docs/m/*.jpg
+          git diff --cached --quiet || (git commit -m "Canal: fotos das páginas da Shopee" && git pull --rebase -q && git push)
