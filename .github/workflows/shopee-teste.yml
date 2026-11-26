@@ -1,0 +1,19 @@
+name: Shopee API (teste)
+on:
+  workflow_dispatch:
+    inputs:
+      termo:
+        description: "termo de busca"
+        default: "vaso decorativo"
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Buscar e gerar 1 link
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+        run: |
+          python3 shopee/api.py buscar "${{ github.event.inputs.termo }}" 10
+          python3 shopee/api.py link https://shopee.com.br/product/544374309/58270107598
