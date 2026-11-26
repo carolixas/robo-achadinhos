@@ -1,1392 +1,1796 @@
 {
- "gerado_em": "2026-11-26T17:18:55Z",
+ "gerado_em": "2026-11-26T18:21:17Z",
  "buscas": {
-  "vaso decorativo": [
+  "serum facial": [
    {
-    "itemId": 22899372776,
-    "shopId": 254863913,
-    "productName": "Kit 3 Vasos Decorativos Preto em Espiral Decoração Moderna para Sala e Estante",
-    "priceMin": "24.79",
+    "itemId": 25293647491,
+    "productName": "Celimax The Vita A Retinal Shot Tightening Booster 15ml",
+    "priceMin": "136.49",
+    "ratingStar": "5",
+    "sales": 16012,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825ai-mr9pynhmd43k22",
+    "offerLink": "https://s.shopee.com.br/6VPk9yyZVp"
+   },
+   {
+    "itemId": 58264684239,
+    "productName": "Kit Hidrabene Clareador Skincare Clareador Facial: Sabonete, Protetor 70 FPS e Sérum Multicorretivo",
+    "priceMin": "71.16",
+    "ratingStar": "4.9",
+    "sales": 12866,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mvoyqqp7u5tt80",
+    "offerLink": "https://s.shopee.com.br/60TTZ40TWk"
+   },
+   {
+    "itemId": 29374862474,
+    "productName": "CELIMAX The Vita A Retinal Shot Tightening Booster, 15ml",
+    "priceMin": "136.5",
+    "ratingStar": "5",
+    "sales": 5626,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825a0-mrgw6qqrtvk16b",
+    "offerLink": "https://s.shopee.com.br/6AmtlMzqBn"
+   },
+   {
+    "itemId": 22691297138,
+    "productName": "[OFFICIAL] SKIN1004 madagascar centella ampoule 30ml,55ml,100ml,120ml",
+    "priceMin": "47.98",
+    "ratingStar": "5",
+    "sales": 3904,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-823qv-mp97g79bqk8w0d",
+    "offerLink": "https://s.shopee.com.br/5fqdAS1kCi"
+   },
+   {
+    "itemId": 23099869803,
+    "productName": "Kit Clareador Facial Completo Hidrabene – Sabonete, Sérum Multicorretivo, Hidratante e Protetor Solar FPS 70",
+    "priceMin": "92.91",
+    "ratingStar": "4.9",
+    "sales": 3011,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ls-mvw1j732t05cfa",
+    "offerLink": "https://s.shopee.com.br/5qA3Ml16rl"
+   },
+   {
+    "itemId": 47050299220,
+    "productName": "CELIMAX Pore+Dark Spot Brightening Serum Mask 2 Options",
+    "priceMin": "39.65",
+    "ratingStar": "5",
+    "sales": 2363,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825a6-mgdfmxypi619b0",
+    "offerLink": "https://s.shopee.com.br/5LDmlq30sg"
+   },
+   {
+    "itemId": 23699524199,
+    "productName": "Sérum Mix-01：Reduz poros e oleosidade, clareia manchas",
+    "priceMin": "32.88",
+    "ratingStar": "4.8",
+    "sales": 3456,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m1-mq2ga1jkrocgae",
+    "offerLink": "https://s.shopee.com.br/5VXCy92NXj"
+   },
+   {
+    "itemId": 27620799823,
+    "productName": "Numbuzin No.9 NAD Bio Lifting Essence 2types 30ml/50ml",
+    "priceMin": "95.97",
+    "ratingStar": "5",
+    "sales": 2853,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-8259p-mr9kjx26bgu9b5",
+    "offerLink": "https://s.shopee.com.br/7fbhY7u89A"
+   },
+   {
+    "itemId": 58266070880,
+    "productName": "Kit Linha Coreana Hidrabene K-Sérum Harmonizador Facial + Sérum GHK-Cu + Sérum PDRN Skincare",
+    "priceMin": "170.91",
+    "ratingStar": "4.9",
+    "sales": 3158,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lh-mtza8ww705q921",
+    "offerLink": "https://s.shopee.com.br/7pv7kQtUoD"
+   },
+   {
+    "itemId": 58209766348,
+    "productName": "Kit Skincare Kokeshi Cosméticos Completo 6 Itens Hidratação e Tratamento Facial",
+    "priceMin": "92.91",
+    "ratingStar": "4.9",
+    "sales": 2893,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820la-mqbygibee3nm0d",
+    "offerLink": "https://s.shopee.com.br/7Kyr9VvOp8"
+   },
+   {
+    "itemId": 58266177953,
+    "productName": "Hidrabene Sérum Facial GHK-Cu Peptídeo de Cobre – Firmeza e Densidade 700 Nano Peptídeos",
+    "priceMin": "79.9",
+    "ratingStar": "4.9",
+    "sales": 2804,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lb-mul5tmdl5eyob2",
+    "offerLink": "https://s.shopee.com.br/7VIHLoulUB"
+   },
+   {
+    "itemId": 40229158245,
+    "productName": "[MINI] DR.REJUALL Advanced Miniature Collection 3 Options",
+    "priceMin": "59.82",
+    "ratingStar": "5",
+    "sales": 2258,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-8260f-mln2r38cofeqc4",
+    "offerLink": "https://s.shopee.com.br/70M0ktwfV6"
+   },
+   {
+    "itemId": 29564832567,
+    "productName": "Medicube PDRN Pink Peptide Serum 10ml 30ml / Ultra Light PDRN Pink Peptide Serum 30ml",
+    "priceMin": "124.97",
+    "ratingStar": "5",
+    "sales": 2176,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-8259g-mrfasnpryjus9a",
+    "offerLink": "https://s.shopee.com.br/7AfQxCw2A9"
+   },
+   {
+    "itemId": 28867680104,
+    "productName": "[NEW] NUMBUZIN No.9 NAD BIO Lifting Sil Essence 30ml, 50ml",
+    "priceMin": "92.68",
+    "ratingStar": "5",
+    "sales": 1908,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-8257x-mrgvlvtzbjt2da",
+    "offerLink": "https://s.shopee.com.br/6fjAMHxwB4"
+   },
+   {
+    "itemId": 8509877651,
+    "productName": "Sérum Principia 10% Niacinamida + 1% Zinco Pca NC-10",
+    "priceMin": "58.5",
+    "ratingStar": "4.9",
+    "sales": 2129,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-miajsqf4sgsm59",
+    "offerLink": "https://s.shopee.com.br/6q2aYaxIq7"
+   },
+   {
+    "itemId": 42333046944,
+    "productName": "Simple Organic Ultra Sérum Niacinamida",
+    "priceMin": "34.5",
+    "ratingStar": "5",
+    "sales": 2122,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ma-mraccemjjsw5e8",
+    "offerLink": "https://s.shopee.com.br/90758Zp3RY"
+   },
+   {
+    "itemId": 46465538834,
+    "productName": "[B : LAB] Tamanho Da Amostra Matcha Cleanser/CICA Barrier Apple Cera Cream/Yuja Spot Serum",
+    "priceMin": "5.5",
+    "ratingStar": "5",
+    "sales": 1370,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825a3-mrjmp9omb8xta9",
+    "offerLink": "https://s.shopee.com.br/9AQVKsoQ6b"
+   },
+   {
+    "itemId": 58208432235,
+    "productName": "Principia Kit Anti-Acne Essencial c/ Gel de Limpeza GL-01 + Hidratação GH-01 + Sérum Mix-01 + Protetor Solar PS-01 FPS60",
+    "priceMin": "179.18",
+    "ratingStar": "4.9",
+    "sales": 1651,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lp-mmsy97ne6q6c38",
+    "offerLink": "https://s.shopee.com.br/8fUEjxqK7W"
+   },
+   {
+    "itemId": 58254501035,
+    "productName": "Skincare Vitamina C Dermachem serum clareador sabonete esfoliante mousse de limpeza",
+    "priceMin": "51.89",
+    "ratingStar": "4.9",
+    "sales": 1829,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l6-mv7qspa4dd6re2",
+    "offerLink": "https://s.shopee.com.br/8pnewGpgmZ"
+   },
+   {
+    "itemId": 55761873036,
+    "productName": "[OFFICIAL] Dr.Reju-All Advanced PDRN Copper Peptide Serum 30ml",
+    "priceMin": "140",
+    "ratingStar": "5",
+    "sales": 1851,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825a5-mq4cone5pwy6d9",
+    "offerLink": "https://s.shopee.com.br/8KrOLLranU"
+   },
+   {
+    "itemId": 25316598909,
+    "productName": "SKIN1004 Madagascar Centella Asiatica Ampoule Facial Serum 55ml, 100ml",
+    "priceMin": "81.41",
+    "ratingStar": "5",
+    "sales": 1425,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825a7-mrh1civb1l36ec",
+    "offerLink": "https://s.shopee.com.br/8VAoXeqxSX"
+   },
+   {
+    "itemId": 48712278328,
+    "productName": "Sérum de Vitamina C Arencia com Glutationa e Niacinamida - Manchas Escuras e Antienvelhecimento, Cuidados Coreanos com a",
+    "priceMin": "22.04",
+    "ratingStar": "4.9",
+    "sales": 1701,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134301-8259z-mu1p9fe3meww2c",
+    "offerLink": "https://s.shopee.com.br/80EXwjsrTS"
+   },
+   {
+    "itemId": 23524387565,
+    "productName": "[OFFICIAL] SKIN1004 madagascar tone brightening capsule ampoule 30ml,50ml,100ml",
+    "priceMin": "49.97",
+    "ratingStar": "5",
+    "sales": 1664,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-823qx-mp98g129uwaob3",
+    "offerLink": "https://s.shopee.com.br/8AXy92sE8V"
+   },
+   {
+    "itemId": 58261587690,
+    "productName": "Sérum Peptídeo de Cobre GHK-Cu Reduz Rugas Linhas Finas Firmeza e Hidratação Facial Zencial",
+    "priceMin": "299",
+    "ratingStar": "4.9",
+    "sales": 1604,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820me-mosqg5nsr6yt8c",
+    "offerLink": "https://s.shopee.com.br/AKcSj1jyjw"
+   },
+   {
+    "itemId": 55263300334,
+    "productName": "[NEW] DR.REJUALL Advanced PDRN Copper Peptide Serum, 30mL",
+    "priceMin": "140",
+    "ratingStar": "5",
+    "sales": 1669,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825an-mridtggdlki418",
+    "offerLink": "https://s.shopee.com.br/AUvsvKjLOz"
+   },
+   {
+    "itemId": 23797487584,
+    "productName": "Sérum Clareador Dermachem de Melasma Uniformiza Tom da Pele Clareia Manchas Antirrugas Niacinamida",
+    "priceMin": "13.1",
+    "ratingStar": "4.8",
+    "sales": 1402,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ld-mtfi9w0cy0oyd1",
+    "offerLink": "https://s.shopee.com.br/9zzcKPlFPu"
+   },
+   {
+    "itemId": 58265861335,
+    "productName": "Kits com 50 ou 100 Máscaras Facial Comprimida Pastilhas de Algodão para Sérum Skincare",
+    "priceMin": "18.89",
+    "ratingStar": "4.9",
+    "sales": 1618,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lu-mrool3qxea6df7",
+    "offerLink": "https://s.shopee.com.br/AAJ2Wikc4x"
+   },
+   {
+    "itemId": 27438255053,
+    "productName": "LILYEVE Grow:Turn Exosome Brush Ampoule, 6 Types ( 30ml, 100ml, Prime 100ml, Pink Collagen Capsule 100ml, Blue Hyaluronic Acid 100ml, Gold 5X 100ml )",
+    "priceMin": "74.31",
+    "ratingStar": "5",
+    "sales": 1661,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-8259e-mux9uj7d9ce989",
+    "offerLink": "https://s.shopee.com.br/9fMlvnmW5s"
+   },
+   {
+    "itemId": 58216131698,
+    "productName": "Skincare Facial Dia e Noite | Vitamina C VC-10 e Sérum Retinol RN-0,3 para Cuidados Faciais",
+    "priceMin": "34.88",
+    "ratingStar": "4.9",
+    "sales": 1490,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259m-mrts3fipv11db4",
+    "offerLink": "https://s.shopee.com.br/9pgC86lskv"
+   },
+   {
+    "itemId": 23897437955,
+    "productName": "Sérum Clareador Clear 30ml Dermachem",
+    "priceMin": "14.99",
+    "ratingStar": "4.9",
+    "sales": 1436,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lo-mt9jxi3dyh35d9",
+    "offerLink": "https://s.shopee.com.br/9KjvXBnmlq"
+   },
+   {
+    "itemId": 23398381368,
+    "productName": "Best Séruns Principia Cuidados com a Pele - Diversas Variedades",
+    "priceMin": "22.88",
+    "ratingStar": "4.8",
+    "sales": 1728,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m8ayze5ba80hed",
+    "offerLink": "https://s.shopee.com.br/9V3LjUn9Qt"
+   },
+   {
+    "itemId": 58203832002,
+    "productName": "Cicatribem Clareamento Total Sérum Clareador & Clareador Dérmico 60g + Firmador Íntimo de Brinde",
+    "priceMin": "287.82",
+    "ratingStar": "4.9",
+    "sales": 1375,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lg-mt9ls90xgete65",
+    "offerLink": "https://s.shopee.com.br/114nbsJVgG"
+   },
+   {
+    "itemId": 58200183117,
+    "productName": "Principia Kit Antissinais Dia e Noite c/ Vitamina VC-10 + Sérum Retinol Rn-0,3",
+    "priceMin": "113.99",
+    "ratingStar": "4.9",
+    "sales": 1247,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mmsy97ndvhmp77",
+    "offerLink": "https://s.shopee.com.br/1BODoBIsLJ"
+   },
+   {
+    "itemId": 22595377463,
+    "productName": "Skincare Facial Dia e Noite | Vitamina C VC-10 e Sérum Retinol RN-0,3 para Cuidados Faciais",
+    "priceMin": "24.98",
+    "ratingStar": "4.9",
+    "sales": 1594,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l6-mu3p2oc6q29saa",
+    "offerLink": "https://s.shopee.com.br/gRxDGKmME"
+   },
+   {
+    "itemId": 15449866381,
+    "productName": "Sérum Principia Retinol 0,3% + Vitamina E - Rn-0,3 Skincare",
+    "priceMin": "69",
+    "ratingStar": "4.9",
+    "sales": 1321,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mvnbsfk3d5hfd2",
+    "offerLink": "https://s.shopee.com.br/qlNPZK91H"
+   },
+   {
+    "itemId": 26915439031,
+    "productName": "[NEW] JBSARA Skin Softening Serum 30ml",
+    "priceMin": "64.99",
+    "ratingStar": "5",
+    "sales": 469,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-8259s-mv6t3x71qu4i5a",
+    "offerLink": "https://s.shopee.com.br/Lp6oeM32C"
+   },
+   {
+    "itemId": 58262796052,
+    "productName": "Garnier Sérum de Limpeza Facial Iluminador com Vitamina C, Antimarcas, Pele normal a oleosa, Serumnete 100G",
+    "priceMin": "26.99",
+    "ratingStar": "5",
+    "sales": 1330,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ln-mpmmgt0xrapt6f",
+    "offerLink": "https://s.shopee.com.br/W8X0xLPhF"
+   },
+   {
+    "itemId": 4993804853,
+    "productName": "Sérum Principia Vitamina C VC-10 30ml",
+    "priceMin": "68.4",
+    "ratingStar": "4.9",
+    "sales": 1249,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mibovvs629s2e2",
+    "offerLink": "https://s.shopee.com.br/1CGQ2NJiA"
+   },
+   {
+    "itemId": 27496067131,
+    "productName": "[OFFICIAL] Arencia Vitamin C / Glycolic Acid Skincare Sachet",
+    "priceMin": "19.99",
+    "ratingStar": "5",
+    "sales": 188,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-825ba-mubmnt7o88at42",
+    "offerLink": "https://s.shopee.com.br/BVgcLMgND"
+   },
+   {
+    "itemId": 49705333465,
+    "productName": "[amostra] SKIN1004 Madagascar Centella Ampoule (Brinde: 1 un. aleatória)",
+    "priceMin": "7.5",
+    "ratingStar": "5",
+    "sales": 703,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134207-82588-mtl7f7r1i58k76",
+    "offerLink": "https://s.shopee.com.br/2LaBCKEQye"
+   }
+  ],
+  "pincel maquiagem kit": [
+   {
+    "itemId": 20597875246,
+    "productName": "ANA1108-12 Kits de 8 mini Conjunto De Pincéis De Maquiagem",
+    "priceMin": "30.46",
+    "ratingStar": "4.9",
+    "sales": 2973,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdy9-m0u25g6inavd44",
+    "offerLink": "https://s.shopee.com.br/1W14Cnzwo7"
+   },
+   {
+    "itemId": 23394196415,
+    "productName": "Kit Sobrancelha Henna makiaj+Palito+Navalha+Paquímetro+Tesoura+Pincel+Dappen+ 2 Lápis Dermatográfico",
+    "priceMin": "35.91",
+    "ratingStar": "4.8",
+    "sales": 2117,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbqumjd4g5ehb9",
+    "offerLink": "https://s.shopee.com.br/2LaBCKwm7I"
+   },
+   {
+    "itemId": 20999324162,
+    "productName": "Kit 13 Pçs Pincéis De Maquiagem Contorno Kabuki Profissional-GUI ANA",
+    "priceMin": "11.98",
     "ratingStar": "4.7",
-    "sales": 4906,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ly-mrx0wm0ryn0m87",
-    "offerLink": "https://s.shopee.com.br/6VPk5hZcyx",
+    "sales": 2281,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdw1-lxcudfiu913eee",
+    "offerLink": "https://s.shopee.com.br/2VtbOdw8mL"
+   },
+   {
+    "itemId": 23794212818,
+    "productName": "Kit Ate 14 Pinceis De Maquiagem Profissional Pincel De Maquiagem Alta Qualidade Criar Base sem Falhas",
+    "priceMin": "16.99",
+    "ratingStar": "4.7",
+    "sales": 2010,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdwo-mc4ahmwbffse1a",
+    "offerLink": "https://s.shopee.com.br/20xKniy2nG"
+   },
+   {
+    "itemId": 58256578086,
+    "productName": "Kit 4 Pincéis de Maquiagem Multifuncionais Duo Ponta – Pincéis Faciais para Base, Corretivo e Blush",
+    "priceMin": "22.9",
+    "ratingStar": "4.9",
+    "sales": 2062,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8262z-mlm5kcdgjgu880",
+    "offerLink": "https://s.shopee.com.br/2BGl01xPSJ"
+   },
+   {
+    "itemId": 22999196500,
+    "productName": "12 Kits de 8 mini Conjunto De Pincéis De Maquiagem",
+    "priceMin": "34.47",
+    "ratingStar": "5",
+    "sales": 1994,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m0-mszmq1mc5cska3",
+    "offerLink": "https://s.shopee.com.br/Lp6of4OAy"
+   },
+   {
+    "itemId": 58211329759,
+    "productName": "Kit 13 Pçs Pincéis De Maquiagem Contorno Kabuki Profissional",
+    "priceMin": "11.8",
+    "ratingStar": "4.7",
+    "sales": 1638,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-823pg-moo48psfmkg0d4",
+    "offerLink": "https://s.shopee.com.br/W8X0y3kq1"
+   },
+   {
+    "itemId": 58268995587,
+    "productName": "ANA1108 Kit 13 Pincéis de Maquiagem Profissional + Necessaire Estojo Organizador",
+    "priceMin": "19.98",
+    "ratingStar": "4.7",
+    "sales": 1710,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m2-mtjku0te77k142",
+    "offerLink": "https://s.shopee.com.br/1CGQ35eqw"
+   },
+   {
+    "itemId": 22297438072,
+    "productName": "KIT 12 unidades  Mini Espelho De Maquiagem Portátil Com 5 Pcs Pincéis De Maquiagem Lupa Mão Segurar Bolso Dobrável Maqui",
+    "priceMin": "67.19",
+    "ratingStar": "4.9",
+    "sales": 1467,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-ltflffuljjlrc1",
+    "offerLink": "https://s.shopee.com.br/BVgcM51Vz"
+   },
+   {
+    "itemId": 23997629367,
+    "productName": "KIT 600 unidades escovinhas com glitter e sem Glitter Extensão de Cílios e sobrancelha--GUI ANA",
+    "priceMin": "40.4",
+    "ratingStar": "5",
+    "sales": 1623,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdvf-lxcu8ke0jdntd0",
+    "offerLink": "https://s.shopee.com.br/114nbt1qpA"
+   }
+  ],
+  "organizador maquiagem acrilico": [
+   {
+    "itemId": 58252152185,
+    "productName": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
+    "priceMin": "22.49",
+    "ratingStar": "4.9",
+    "sales": 5807,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-81zwr-mieih5tm8i6b73",
+    "offerLink": "https://s.shopee.com.br/1CGQ3niwB"
+   },
+   {
+    "itemId": 22092880647,
+    "productName": "Organizador De Cosmético Maquiagem Acrílico Giratório 360º",
+    "priceMin": "36.9",
+    "ratingStar": "4.8",
+    "sales": 3848,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258l-mut5rgicqz2839",
+    "offerLink": "https://s.shopee.com.br/5AuMZYU3SC"
+   },
+   {
+    "itemId": 23397982095,
+    "productName": "Expositor de Perfumes Cosméticos 3 Andares Multiuso Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza",
+    "priceMin": "29.99",
+    "ratingStar": "5",
+    "sales": 3441,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1qfaspn0ejuf9",
+    "offerLink": "https://s.shopee.com.br/50awNFUgnB"
+   },
+   {
+    "itemId": 47810770730,
+    "productName": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas - Kaziva",
+    "priceMin": "27.9",
+    "ratingStar": "4.8",
+    "sales": 2788,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m1-moe991hva9z909",
+    "offerLink": "https://s.shopee.com.br/4qHWAwVK8A"
+   },
+   {
+    "itemId": 21897759650,
+    "productName": "Organizador De Cosméticos Multiuso Porta Algodão Cotonete Duplo Com Tampa Dourada Acrílico Resistente",
+    "priceMin": "12.9",
+    "ratingStar": "4.9",
+    "sales": 2968,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdvd-ly40yl76fd7147",
+    "offerLink": "https://s.shopee.com.br/4fy5ydVxT9"
+   },
+   {
+    "itemId": 21098661719,
+    "productName": "Organizador de maquiagem Giratório 360º Acrílico Suporte de Cosméticos",
+    "priceMin": "38.98",
+    "ratingStar": "4.8",
+    "sales": 2831,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rd6c-m729rq2ye1aka6",
+    "offerLink": "https://s.shopee.com.br/4VefmKWao8"
+   },
+   {
+    "itemId": 58217736153,
+    "productName": "Porta Pincel 3 Divisorias Diamante Organizador De Mesa Acrílico Maquiagem Batom Banheiro Quarto Escritório",
+    "priceMin": "13.9",
+    "ratingStar": "4.9",
+    "sales": 2720,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lq-ms2y6e5hvxfpe6",
+    "offerLink": "https://s.shopee.com.br/4LLFa1XE97"
+   },
+   {
+    "itemId": 21599547219,
+    "productName": "Prateleira Organizador 2 Andares Banheiro Multiuso Porta Maquiagem Cosméticos Acrilico Diamante",
+    "priceMin": "25.99",
+    "ratingStar": "4.9",
+    "sales": 2561,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259k-msbl8usjh8ga8e",
+    "offerLink": "https://s.shopee.com.br/4B1pNiXrU6"
+   },
+   {
+    "itemId": 56705202996,
+    "productName": "Organizador de Maquiagem GRANDE Giratório 360° em Acrílico Transparente com Prateleiras Ajustáveis",
+    "priceMin": "33.99",
+    "ratingStar": "4.8",
+    "sales": 2233,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjtz15zm1og29d",
+    "offerLink": "https://s.shopee.com.br/40iPBPYUp5"
+   },
+   {
+    "itemId": 58253930130,
+    "productName": "Organizador de Maquiagem Giratório 360° em Acrílico Transparente  Prateleiras Ajustáveis e Design Moderno",
+    "priceMin": "36.8",
+    "ratingStar": "4.7",
+    "sales": 1973,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l7-mttpsntvvlz625",
+    "offerLink": "https://s.shopee.com.br/3qOyz6Z8A4"
+   }
+  ],
+  "escova secadora": [
+   {
+    "itemId": 22392646521,
+    "productName": "Escova Secadora Britânia 4 em 1 Nanocerâmica 1300W BELLA01",
+    "priceMin": "89.9",
+    "ratingStar": "4.9",
+    "sales": 7467,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259k-mvxglwppgwzn22",
+    "offerLink": "https://s.shopee.com.br/5fqdATsY7x"
+   },
+   {
+    "itemId": 22597349492,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler 110V",
+    "priceMin": "37.95",
+    "ratingStar": "4.7",
+    "sales": 6082,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rccl-lrqtwd8r8kc859",
+    "offerLink": "https://s.shopee.com.br/5VXCyAtBSw"
+   },
+   {
+    "itemId": 23698517705,
+    "productName": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler",
+    "priceMin": "38.66",
+    "ratingStar": "4.8",
+    "sales": 5553,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7ravk-ma1kw2axdoy9bb",
+    "offerLink": "https://s.shopee.com.br/5LDmlrtonv"
+   },
+   {
+    "itemId": 40624794433,
+    "productName": "Escova 5 em 1 Secador, Pente, Modelador, Aumenta volume Profissional 110V E 220V",
+    "priceMin": "52.99",
+    "ratingStar": "4.5",
+    "sales": 4049,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8262f-mjou7n8y8utg83",
+    "offerLink": "https://s.shopee.com.br/7pv7kSkIjQ"
+   },
+   {
+    "itemId": 22436702255,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler  marisa APENAS 110V",
+    "priceMin": "37.99",
+    "ratingStar": "4.8",
+    "sales": 2722,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbo6363agfa195",
+    "offerLink": "https://s.shopee.com.br/7fbhY9kw4P"
+   },
+   {
+    "itemId": 22894684787,
+    "productName": "Escova Secadora e Alisadora 3 em 1 — 110V e 220v – Cabelos Lisos e Brilhantes em Minutos!",
+    "priceMin": "46.88",
+    "ratingStar": "4.8",
+    "sales": 3206,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-821fe-mh0k6qkyxb0t04",
+    "offerLink": "https://s.shopee.com.br/7VIHLqlZPO"
+   },
+   {
+    "itemId": 20597386830,
+    "productName": "Escova 5 em 1 Secador, Pente, Modelador, Aumenta volume Profissional 110V ",
+    "priceMin": "58.99",
+    "ratingStar": "4.4",
+    "sales": 2675,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-824ib-meq1a3cx181uc4",
+    "offerLink": "https://s.shopee.com.br/7Kyr9XmCkN"
+   },
+   {
+    "itemId": 18397633096,
+    "productName": "Escova Rotativa Elétrica Secador de cabelo Professinal 2 em 1 110v e 220v",
+    "priceMin": "79.99",
+    "ratingStar": "4.7",
+    "sales": 2359,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l9-ms1gwon5kk5h8d",
+    "offerLink": "https://s.shopee.com.br/7AfQxEmq5M"
+   },
+   {
+    "itemId": 58213396671,
+    "productName": "secador de cabelo escova de ar quente 5 em 1 modelador de cabelo 110v ou 220v",
+    "priceMin": "56.88",
+    "ratingStar": "4.6",
+    "sales": 2367,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825ae-mq2h97q5erk2f7",
+    "offerLink": "https://s.shopee.com.br/70M0kvnTQL"
+   },
+   {
+    "itemId": 58270017100,
+    "productName": "Escova Secadora Alisador Eletrica QuenteCabelo Com 3 Em1,Portátil para Uso Doméstico,protege el cabello",
+    "priceMin": "41.99",
+    "ratingStar": "4.8",
+    "sales": 2065,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lg-mu1whi961jpc3a",
+    "offerLink": "https://s.shopee.com.br/6q2aYco6lK"
+   },
+   {
+    "itemId": 23694347564,
+    "productName": "GOKOCO Escova Secadora 5 Em 1 Conjunto De Secador De Cabelo Multifuncional De Alta Velocidade Dupla voltagem 110V-240V",
+    "priceMin": "459",
+    "ratingStar": "4.9",
+    "sales": 2196,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ln-msbapxbqpouead",
+    "offerLink": "https://s.shopee.com.br/6fjAMJok6J"
+   },
+   {
+    "itemId": 58200392419,
+    "productName": "secador de cabelo escova de ar quente 5 em 1 modelador de cabelo 110v ou 220v",
+    "priceMin": "58.88",
+    "ratingStar": "4.5",
+    "sales": 2246,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m7-mq2ftdfrlkw2af",
+    "offerLink": "https://s.shopee.com.br/3qOyz6zWqm"
+   },
+   {
+    "itemId": 19927868355,
+    "productName": "Escova Secadora Britânia Bec07r  Cabo Giratório 1300w Bivolt",
+    "priceMin": "113.58",
+    "ratingStar": "4.9",
+    "sales": 1572,
+    "imageUrl": "https://cf.shopee.com.br/file/fbfc3d064310fe94278789339ff326d9",
+    "offerLink": "https://s.shopee.com.br/3g5Ymo0ABl"
+   },
+   {
+    "itemId": 23598683017,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler APENAS 110V Jimmystore",
+    "priceMin": "37.99",
+    "ratingStar": "4.8",
+    "sales": 1681,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7ra3j-mblwmvx5pq1o34",
+    "offerLink": "https://s.shopee.com.br/3Vm8aV0nWk"
+   },
+   {
+    "itemId": 23598844177,
+    "productName": "GOKOCO Escova Secadora 7 Em 1 GD032 Conjunto De Secador De Cabelo Multifuncional De Alta Velocidade  Para Alisar Enrolar",
+    "priceMin": "585",
+    "ratingStar": "4.9",
+    "sales": 1545,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820me-msbaticu1ix02e",
+    "offerLink": "https://s.shopee.com.br/3LSiOC1Qrj"
+   },
+   {
+    "itemId": 58217144714,
+    "productName": "Suporte de Parede 4 em 1 para Secador, Chapinha, Babyliss e Escova elétrica",
+    "priceMin": "29.7",
+    "ratingStar": "4.9",
+    "sales": 1744,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lo-msfp38grzv9je6",
+    "offerLink": "https://s.shopee.com.br/3B9IBt24Ci"
+   },
+   {
+    "itemId": 58269340387,
+    "productName": "Escova Secadora 5 Em 1 Conjunto De Secador De Cabelo Multifuncional",
+    "priceMin": "148.9",
+    "ratingStar": "4.8",
+    "sales": 1591,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lv-mtqchrdsa135b9",
+    "offerLink": "https://s.shopee.com.br/30prza2hXh"
+   },
+   {
+    "itemId": 58217626429,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler 110V",
+    "priceMin": "37.99",
+    "ratingStar": "4.8",
+    "sales": 1615,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258q-msoift1f8zcxfa",
+    "offerLink": "https://s.shopee.com.br/2qWRnH3Ksg"
+   },
+   {
+    "itemId": 23493499173,
+    "productName": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em 1 Hair Styler",
+    "priceMin": "37.99",
+    "ratingStar": "4.8",
+    "sales": 1541,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7reqp-m1x4clqtt7xy63",
+    "offerLink": "https://s.shopee.com.br/2gD1ay3yDf"
+   },
+   {
+    "itemId": 42800429750,
+    "productName": "Escova Secadora 110/220v Alisador Elétrica Escova de ar quente Modeladores de cabelo Com 3 Em1 Hair",
+    "priceMin": "50.98",
+    "ratingStar": "4.8",
+    "sales": 1166,
+    "imageUrl": "https://cf.shopee.com.br/file/cn-11134207-820l4-mfrq33pidnuycd",
+    "offerLink": "https://s.shopee.com.br/5AuMZYuS9A"
+   },
+   {
+    "itemId": 54052981427,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Hair 110V/220V+Volts Alisadora Profissional de Cabel",
+    "priceMin": "92.99",
+    "ratingStar": "4.8",
+    "sales": 848,
+    "imageUrl": "https://cf.shopee.com.br/file/cn-11134207-820l4-mi5knbmaa4naf4",
+    "offerLink": "https://s.shopee.com.br/50awNFv5U9"
+   },
+   {
+    "itemId": 58254273720,
+    "productName": "Escova Secadora One Step 220V 4em1, Escova Ar Quente Alisa e Modela Cabelo | Envio Imediato",
+    "priceMin": "48.88",
+    "ratingStar": "4.8",
+    "sales": 1009,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lp-mmsfvtuvc9vobe",
+    "offerLink": "https://s.shopee.com.br/4qHWAwvip8"
+   },
+   {
+    "itemId": 56717377539,
+    "productName": "Escova Secadora Philco Íons Tourmaline Bivolt 1300W PES33A",
+    "priceMin": "138.9",
+    "ratingStar": "4.8",
+    "sales": 808,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259y-msq0v25e8mww83",
+    "offerLink": "https://s.shopee.com.br/4fy5ydwMA7"
+   },
+   {
+    "itemId": 22799050193,
+    "productName": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler BAOSHI",
+    "priceMin": "44.99",
+    "ratingStar": "4.8",
+    "sales": 818,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825as-mg2sjqrh2arz6a",
+    "offerLink": "https://s.shopee.com.br/4VefmKwzV6"
+   },
+   {
+    "itemId": 22191598761,
+    "productName": "Escova Secadora Britânia Cerâmica 1300W Infrared BEC07R",
+    "priceMin": "89.9",
+    "ratingStar": "4.9",
+    "sales": 865,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258b-mvqbeo0p0fltc5",
+    "offerLink": "https://s.shopee.com.br/4LLFa1xcq5"
+   },
+   {
+    "itemId": 58262987163,
+    "productName": "Escova Secadora Pet 2 em 1 Seca Remove Pelos Cachorro Gato Profissional",
+    "priceMin": "49.99",
+    "ratingStar": "4.9",
+    "sales": 995,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-824gi-mpsc3w6ye4g1cc",
+    "offerLink": "https://s.shopee.com.br/4B1pNiyGB4"
+   },
+   {
+    "itemId": 58219341014,
+    "productName": "Escova Secadora Mondial ES-02-BI 1200W",
+    "priceMin": "105.16",
+    "ratingStar": "4.9",
+    "sales": 878,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8257s-mtqptq2pwirpa0",
+    "offerLink": "https://s.shopee.com.br/40iPBPytW3"
+   },
+   {
+    "itemId": 45567828103,
+    "productName": "Escova Rotativa Elétrica Secador de cabelo Professinal 2 em 1 110v e 220v",
+    "priceMin": "85.99",
+    "ratingStar": "4.7",
+    "sales": 692,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825ai-mt3m0ymlj40658",
+    "offerLink": "https://s.shopee.com.br/1BODoD9gGW"
+   },
+   {
+    "itemId": 20597976076,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler APENAS 110V",
+    "priceMin": "40.95",
+    "ratingStar": "4.8",
+    "sales": 769,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7reo7-m1wdeu9qiz6m93",
+    "offerLink": "https://s.shopee.com.br/114nbuAJbV"
+   },
+   {
+    "itemId": 23392828590,
+    "productName": "Secador de cabelo 3 em 1 com pente modelador - Seca, alisa, modela e dá volume 110V",
+    "priceMin": "75.69",
+    "ratingStar": "4.7",
+    "sales": 858,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rfif-m9ahivrvf4rr09",
+    "offerLink": "https://s.shopee.com.br/qlNPbAwwU"
+   },
+   {
+    "itemId": 22192352572,
+    "productName": "Escova 5 em 1 Secador, Pente, Modelador, Aumenta volume Profissional",
+    "priceMin": "65.99",
+    "ratingStar": "4.6",
+    "sales": 835,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m6wq8mpfo6075d",
+    "offerLink": "https://s.shopee.com.br/gRxDIBaHT"
+   },
+   {
+    "itemId": 22795207865,
+    "productName": "Escova Secadora 3 em 1 1500W Profissional | Seca Alisa Modela Cabelos Escova Quente Secador",
+    "priceMin": "92.99",
+    "ratingStar": "4.9",
+    "sales": 724,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lj-mtc60t826rr77c",
+    "offerLink": "https://s.shopee.com.br/W8X0zCDcS"
+   },
+   {
+    "itemId": 22436702624,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler su APENAS 110V",
+    "priceMin": "37.99",
+    "ratingStar": "4.7",
+    "sales": 587,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbo6363agfa195",
+    "offerLink": "https://s.shopee.com.br/Lp6ogCqxR"
+   },
+   {
+    "itemId": 58250447943,
+    "productName": "Escova Rotativa Elétrica Secador de cabelo Professinal 2 em 1",
+    "priceMin": "90.95",
+    "ratingStar": "4.6",
+    "sales": 694,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-821fv-mgshvk0v242536",
+    "offerLink": "https://s.shopee.com.br/BVgcNDUIQ"
+   },
+   {
+    "itemId": 49900284864,
+    "productName": "Escova Rotativa Elétrica Secador de cabelo Professinal 2 em 1 110v e 220v",
+    "priceMin": "83",
+    "ratingStar": "4.7",
+    "sales": 495,
+    "imageUrl": "https://cf.shopee.com.br/file/cn-11134207-820l4-mewarkiacxs5b7",
+    "offerLink": "https://s.shopee.com.br/1CGQ4E7dP"
+   },
+   {
+    "itemId": 19999048089,
+    "productName": "Escova Secadora Mondial By Juliette 1300w Es-ju-03 Bivolt",
+    "priceMin": "164.99",
+    "ratingStar": "5",
+    "sales": 769,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rbm7-lnd25yqpim4q97",
+    "offerLink": "https://s.shopee.com.br/2VtbOf4bYu"
+   },
+   {
+    "itemId": 22398540634,
+    "productName": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler",
+    "priceMin": "44.99",
+    "ratingStar": "4.8",
+    "sales": 598,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rash-ma1mckx8q3o6d6",
+    "offerLink": "https://s.shopee.com.br/2LaBCM5Ett"
+   },
+   {
+    "itemId": 18544261346,
+    "productName": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler 110V",
+    "priceMin": "40.99",
+    "ratingStar": "4.6",
+    "sales": 768,
+    "imageUrl": "https://cf.shopee.com.br/file/0717fe00f09a2ef32de0e47501845889",
+    "offerLink": "https://s.shopee.com.br/2BGl035sEs"
+   },
+   {
+    "itemId": 19898262570,
+    "productName": "Escova 5 em 1 Secador, Pente, Modelador, Aumenta volume Profissional",
+    "priceMin": "55.99",
+    "ratingStar": "4.5",
+    "sales": 738,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdxh-mbuidkglfimy05",
+    "offerLink": "https://s.shopee.com.br/20xKnk6VZr"
+   },
+   {
+    "itemId": 19499188462,
+    "productName": "Escova Auxiliar Cerdas de Javali Para Chapinha Secador  Prancha De Cabelo Progressiva MOFASHI",
+    "priceMin": "36.75",
+    "ratingStar": "4.9",
+    "sales": 709,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-lqw08jjall4489",
+    "offerLink": "https://s.shopee.com.br/1qdubR78uq"
+   }
+  ],
+  "skincare kit": [
+   {
+    "itemId": 58264684239,
+    "shopId": 1860098702,
+    "productName": "Kit Hidrabene Clareador Skincare Clareador Facial: Sabonete, Protetor 70 FPS e Sérum Multicorretivo",
+    "priceMin": "71.16",
+    "ratingStar": "4.9",
+    "sales": 12866,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mvoyqqp7u5tt80",
+    "offerLink": "https://s.shopee.com.br/60TTZ40TWk",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 22494941454,
+    "shopId": 395166866,
+    "productName": "Kit Facial Kokeshi Completo 3 Passos Hidratação e Colágeno",
+    "priceMin": "44.9",
+    "ratingStar": "4.9",
+    "sales": 10469,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lx-mqbygibr40sg7a",
+    "offerLink": "https://s.shopee.com.br/5AuMZZBz1e",
+    "commissionRate": "0.21"
+   },
+   {
+    "itemId": 23994387054,
+    "shopId": 395166866,
+    "productName": "Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa",
+    "priceMin": "31.9",
+    "ratingStar": "4.9",
+    "sales": 10461,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lg-mv7qrwedl8n5f6",
+    "offerLink": "https://s.shopee.com.br/50awNGCcMd",
+    "commissionRate": "0.26"
+   },
+   {
+    "itemId": 22598401117,
+    "shopId": 299564699,
+    "productName": "Kit 3 cutelaria profissional Alicate+espatula+Palito de inox. Unha, esmalte, gel, cetim, skin care",
+    "priceMin": "17.9",
+    "ratingStar": "4.8",
+    "sales": 6300,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825a3-mt2p15yglwjp88",
+    "offerLink": "https://s.shopee.com.br/4B1pNjFn3U",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 23893966960,
+    "shopId": 373261329,
+    "productName": "Principia Kit Essencial GL-03 + CH + VC + PS-01 FPS 60 ou PS-05 FPS 70",
+    "priceMin": "163.08",
+    "ratingStar": "4.9",
+    "sales": 4879,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820md-mseerrdpq0w615",
+    "offerLink": "https://s.shopee.com.br/40iPBQGQOT",
+    "commissionRate": "0.23"
+   },
+   {
+    "itemId": 22898980977,
+    "shopId": 373261329,
+    "productName": "Principia Kit Duo c/ 2 Protetores Solares Faciais - PS-01 FPS 60",
+    "priceMin": "80.99",
+    "ratingStar": "4.9",
+    "sales": 5336,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m0-mm1wtgtq87408a",
+    "offerLink": "https://s.shopee.com.br/4VefmLEWNa",
+    "commissionRate": "0.23"
+   },
+   {
+    "itemId": 58208444702,
+    "shopId": 373261329,
+    "productName": "Principia Kit Protetor Solar PS-01 FPS 60 + PS-05 FPS 70- escolha seu tom",
+    "priceMin": "75.59",
+    "ratingStar": "4.9",
+    "sales": 4223,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820la-mmt07g0rint06e",
+    "offerLink": "https://s.shopee.com.br/4LLFa2F9iZ",
+    "commissionRate": "0.23"
+   },
+   {
+    "itemId": 58265242344,
+    "shopId": 373261329,
+    "productName": "Principia kit com 2 Protetores solares com cor PS-05-escolha seu tom",
+    "priceMin": "80.99",
+    "ratingStar": "4.9",
+    "sales": 4130,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ll-mr916ovqrsp164",
+    "offerLink": "https://s.shopee.com.br/3Vm8aVIKPQ",
+    "commissionRate": "0.17"
+   },
+   {
+    "itemId": 23398747829,
+    "shopId": 1321488407,
+    "productName": "Kit 50/40/30/20/10 Máscara Labial Pink Cristal Hidratante para Lábios | Cuidados Labiais",
+    "priceMin": "16.98",
+    "ratingStar": "5",
+    "sales": 3827,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m7-mv89jqy32rr7c4",
+    "offerLink": "https://s.shopee.com.br/3LSiOCIxkP",
+    "commissionRate": "0.11"
+   },
+   {
+    "itemId": 58257901118,
+    "shopId": 395166866,
+    "productName": "Kit Gota de Colágeno Pele de Porcelana Kokeshi Hidratação e Firmeza",
+    "priceMin": "34.53",
+    "ratingStar": "4.9",
+    "sales": 3680,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lt-mq7yn0qc2vib9e",
+    "offerLink": "https://s.shopee.com.br/3qOyz7H3jW",
+    "commissionRate": "0.21"
+   },
+   {
+    "itemId": 23698422814,
+    "shopId": 418205294,
+    "productName": "ANA1108 KIT 30/60/90/150unidades máscaras faciais comprimidas para tratamento de beleza conveniente",
+    "priceMin": "11.63",
+    "ratingStar": "4.9",
+    "sales": 3533,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820mf-mqy8li1mzchw7b",
+    "offerLink": "https://s.shopee.com.br/3g5YmoHh4V",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58215900502,
+    "shopId": 373261329,
+    "productName": "Principia Kit Essencial GL-02, VC-10, PS-01 FPS 60, CH-01",
+    "priceMin": "158.88",
+    "ratingStar": "4.9",
+    "sales": 2818,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m4-mrq0sd678d8kca",
+    "offerLink": "https://s.shopee.com.br/2qWRnHKrlM",
+    "commissionRate": "0.17"
+   },
+   {
+    "itemId": 58266070880,
+    "shopId": 1860098702,
+    "productName": "Kit Linha Coreana Hidrabene K-Sérum Harmonizador Facial + Sérum GHK-Cu + Sérum PDRN Skincare",
+    "priceMin": "170.91",
+    "ratingStar": "4.9",
+    "sales": 3158,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lh-mtza8ww705q921",
+    "offerLink": "https://s.shopee.com.br/2gD1ayLV6L",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 58209766348,
+    "shopId": 395166866,
+    "productName": "Kit Skincare Kokeshi Cosméticos Completo 6 Itens Hidratação e Tratamento Facial",
+    "priceMin": "92.91",
+    "ratingStar": "4.9",
+    "sales": 2893,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820la-mqbygibee3nm0d",
+    "offerLink": "https://s.shopee.com.br/3B9IBtJb5S",
+    "commissionRate": "0.21"
+   },
+   {
+    "itemId": 58260643180,
+    "shopId": 1256694205,
+    "productName": "Kit Adesivos Para Acne Seca Espinha Inflamada Estrelas",
+    "priceMin": "6.99",
+    "ratingStar": "4.8",
+    "sales": 2793,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lm-muuppx6b9r0g56",
+    "offerLink": "https://s.shopee.com.br/30przaKEQR",
+    "commissionRate": "0.15"
+   },
+   {
+    "itemId": 58209822698,
+    "shopId": 1765972632,
+    "productName": "Kit Spa Facial 6 Peças, Skincare Completo para Limpeza e Massagem Relaxante",
+    "priceMin": "21.99",
+    "ratingStar": "4.9",
+    "sales": 2893,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-820nv-mnmsp9q7jugyec",
+    "offerLink": "https://s.shopee.com.br/7VIHLr36IK",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 17512767444,
+    "shopId": 604069672,
+    "productName": "Kit 5 Pomadas Preventivas para Assaduras 45g Turminha da Bagunça Pomada Bebê",
+    "priceMin": "34.65",
+    "ratingStar": "4.9",
+    "sales": 2815,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ld-mlp21ce1lnnq1c",
+    "offerLink": "https://s.shopee.com.br/7Kyr9Y3jdJ",
     "commissionRate": "0.09"
    },
    {
-    "itemId": 52060363792,
-    "shopId": 1215317151,
-    "productName": "Quadros Decorativos 3 Peças Gratidão Amor e Fé Vasos De Flores Brilhantes Decoração(GALHOS GRATIDÃO)",
-    "priceMin": "18.3",
+    "itemId": 58209769278,
+    "shopId": 395166866,
+    "productName": "Kit Glow Kokeshi Colágeno Anti Olheiras Hidratação Completa",
+    "priceMin": "59.9",
     "ratingStar": "4.9",
-    "sales": 3317,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lg-mo5gl8bp3i82bc",
-    "offerLink": "https://s.shopee.com.br/5LDmhYe4Lk",
-    "commissionRate": "0.11"
+    "sales": 3112,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m5-mqby2sqnc54w5c",
+    "offerLink": "https://s.shopee.com.br/7pv7kT1pcQ",
+    "commissionRate": "0.21"
    },
    {
-    "itemId": 23295058293,
-    "shopId": 434890975,
-    "productName": "Adesivo Decorativo para Tampa de Vaso Sanitário – Personagem Divertida Feche a Tampa",
-    "priceMin": "12.29",
+    "itemId": 23794156083,
+    "shopId": 701654180,
+    "productName": "Kit 10 Máscara Adesivo Removedor de Cravos a Base de Carvão de Bambu Limpeza Profunda dos Poros Nose Pore ORIGINAL",
+    "priceMin": "14.9",
+    "ratingStar": "4.5",
+    "sales": 2578,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258i-mq5tjcs6rua5b4",
+    "offerLink": "https://s.shopee.com.br/7fbhYA2SxP",
+    "commissionRate": "0.15"
+   },
+   {
+    "itemId": 22494710306,
+    "shopId": 1460041912,
+    "productName": "Kit skincare rosa mosqueta limpeza de pele bruma facial",
+    "priceMin": "46.89",
+    "ratingStar": "4.9",
+    "sales": 2268,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhkyomigibr553",
+    "offerLink": "https://s.shopee.com.br/6q2aYd5deG",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 49969743245,
+    "shopId": 360498718,
+    "productName": "Kit 4 de Ferramentas de Beleza Extrator de Acne Removedor de Cravo Espinha",
+    "priceMin": "10.99",
+    "ratingStar": "4.9",
+    "sales": 2389,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m9-mum8kqu9zu2p2a",
+    "offerLink": "https://s.shopee.com.br/6fjAMK6GzF",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 23298979814,
+    "shopId": 373261329,
+    "productName": "Principia Kit Limpeza e Hidratação Dia a Dia c/ Gel de Limpeza GL-02 + Creme Hidratante CH-01",
+    "priceMin": "72.74",
+    "ratingStar": "4.9",
+    "sales": 2504,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfio66cktblx93",
+    "offerLink": "https://s.shopee.com.br/7AfQxF4MyM",
+    "commissionRate": "0.17"
+   },
+   {
+    "itemId": 58205979239,
+    "shopId": 373261329,
+    "productName": "Principia Kit Limpa Hidrata e Protege c/ Gel de Limpeza GL-01 + Creme Hidratante CH-01 + Protetor Cor PS-05 FPS 70",
+    "priceMin": "109.88",
+    "ratingStar": "4.9",
+    "sales": 2158,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m4-mli7ak1thedga0",
+    "offerLink": "https://s.shopee.com.br/70M0kw50JL",
+    "commissionRate": "0.17"
+   },
+   {
+    "itemId": 58260342838,
+    "shopId": 1807822255,
+    "productName": "Kit Spa Facial 6 Peças Skincare Completo Limpeza e Massagem Relaxante Limpeza de Skincare Essencial",
+    "priceMin": "21.99",
+    "ratingStar": "5",
+    "sales": 2426,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lc-mnzurgdgyxvl98",
+    "offerLink": "https://s.shopee.com.br/6AmtlP8B0C",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 23998851011,
+    "shopId": 1593730323,
+    "productName": "Kit Skin care Rosa Mosqueta Limpeza de Pele Completo",
+    "priceMin": "42.89",
+    "ratingStar": "4.9",
+    "sales": 2136,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-me4kcdjgfeo140",
+    "offerLink": "https://s.shopee.com.br/60TTZ68oLB",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 21599887999,
+    "shopId": 1147219225,
+    "productName": "kit 1/2/3/4 Pomada Micosan Creme 50g Original - Tratamento Auxiliar  Micoses e Clareador de Manchas",
+    "priceMin": "9.66",
     "ratingStar": "4.8",
-    "sales": 3724,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lj-mpr7ubvtxc029f",
-    "offerLink": "https://s.shopee.com.br/5VXCtrdR0n",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 52207212755,
-    "shopId": 1178127148,
-    "productName": "1 Planta Artificial Hera Ivy Pendente + Vaso Vime Trançado BRANCO Arranjo Decorativo Completo Suspenso PT11BRANCO",
-    "priceMin": "12.5",
-    "ratingStar": "4.6",
-    "sales": 3450,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ln-mlteewjffbpgb3",
-    "offerLink": "https://s.shopee.com.br/5fqd6Acnfq",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58250150886,
-    "shopId": 1495887205,
-    "productName": "Kit Planta Decorativa: Vaso Trançado Marrom + Pendente Artificial Folhas De Eucalipto",
-    "priceMin": "30.62",
-    "ratingStar": "4.9",
-    "sales": 3255,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lm-mumksa02xwcgc4",
-    "offerLink": "https://s.shopee.com.br/5qA3ITcAKt",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 43534405974,
-    "shopId": 292247015,
-    "productName": "Quadro Decorativo 3 Peças Abstrato Geométrico Vasos Florido Moderno Estilo Zen Decoração Sala Quarto Escritório Cores",
-    "priceMin": "23.99",
-    "ratingStar": "4.7",
-    "sales": 2553,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lt-mt1d1ylvc7if8e",
-    "offerLink": "https://s.shopee.com.br/7Kyr5EWSIC",
+    "sales": 2016,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-meugpnu4ga9s3f",
+    "offerLink": "https://s.shopee.com.br/6VPkA16uKI",
     "commissionRate": "0.07"
    },
    {
-    "itemId": 23694250179,
-    "shopId": 1495887205,
-    "productName": "Kit Planta Decorativa: Vaso Trançado Marrom + 1 Pendente Artificial Folhas De Samambaias",
-    "priceMin": "25.85",
-    "ratingStar": "4.8",
-    "sales": 2997,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mg860vnf6wat7f",
-    "offerLink": "https://s.shopee.com.br/7VIHHXVoxF",
-    "commissionRate": "0.13"
+    "itemId": 49463815651,
+    "shopId": 976399075,
+    "productName": "Kit 36/100 Adesivo Seca Espinha, Anti‑acne, Transparente Invisível Dia/Noite Secativo",
+    "priceMin": "6.99",
+    "ratingStar": "4.7",
+    "sales": 2490,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mqi5cfbuigw3a1",
+    "offerLink": "https://s.shopee.com.br/6L6Jxi7XfH",
+    "commissionRate": "0.15"
    },
    {
-    "itemId": 58203899022,
-    "shopId": 982145366,
-    "productName": "Kit 4 Vaso de Plantas Suculentas Vaso Decorativo em Gesso para e Cactos Decoração Sala Pequena Mesas",
-    "priceMin": "14.9",
-    "ratingStar": "4.5",
-    "sales": 2190,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8261v-mjt7wieqq3utbd",
-    "offerLink": "https://s.shopee.com.br/7fbhTqVBcI",
+    "itemId": 18599922423,
+    "shopId": 395166866,
+    "productName": "Kit Skin Care Geleia de colágeno e olhos de gueixa kokeshi",
+    "priceMin": "30.9",
+    "ratingStar": "4.9",
+    "sales": 2328,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l9-mna1ftruvb412d",
+    "offerLink": "https://s.shopee.com.br/5VXCyBAiM8",
+    "commissionRate": "0.26"
+   },
+   {
+    "itemId": 23394690451,
+    "shopId": 373261329,
+    "productName": "Principia Kit Completo Peles Sensíveis c/ Gel de Limpeza GL-02 + Creme Hidratante CH-01 + Protetor Solar PS-01 FPS 60",
+    "priceMin": "105.68",
+    "ratingStar": "4.9",
+    "sales": 1936,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mh9d339f89af1c",
+    "offerLink": "https://s.shopee.com.br/5LDmlsBLh7",
+    "commissionRate": "0.23"
+   },
+   {
+    "itemId": 23994610712,
+    "shopId": 419809235,
+    "productName": "Kit Máscaras Colágeno Trata Olheiras Adesivo Antirrugas Gel Pads Skin Care Tratamento Olhos",
+    "priceMin": "21.98",
+    "ratingStar": "4.9",
+    "sales": 2314,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgdru0cw579j9d",
+    "offerLink": "https://s.shopee.com.br/5qA3Mn9RgE",
     "commissionRate": "0.18"
    },
    {
-    "itemId": 22594430531,
-    "shopId": 432951057,
-    "productName": "Arranjo de Orquídea Artificial Planta Decorativa Vaso e Casca Polida",
-    "priceMin": "42.3",
-    "ratingStar": "4.7",
-    "sales": 2345,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258b-meuuhgazr75xf6",
-    "offerLink": "https://s.shopee.com.br/7pv7g9UYHL",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58219585394,
-    "shopId": 1323176610,
-    "productName": "Vaso Canelado Decorativo Com Pés Para Plantas Decoração Quarto Sala Casa Moderno Leve  34x26",
-    "priceMin": "35.99",
-    "ratingStar": "4.8",
-    "sales": 1712,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lu-mttjg7ewlq8288",
-    "offerLink": "https://s.shopee.com.br/6fjAI0Yze8",
-    "commissionRate": "0.06"
-   },
-   {
-    "itemId": 58215958018,
-    "shopId": 597509058,
-    "productName": "Mini Arranjo Natalino Pinheiro Vaso Decorativo De Mesa Natal",
-    "priceMin": "31.39",
-    "ratingStar": "4.9",
-    "sales": 2036,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l7-mrrcfhl4h6o72f",
-    "offerLink": "https://s.shopee.com.br/6q2aUJYMJB",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 51916004666,
-    "shopId": 608615567,
-    "productName": "Kit Combo 3 Vasos Canelados com Pés Coluna + Bojo + Cachepot Decorativo para Plantas Jardim Sala",
-    "priceMin": "69.99",
-    "ratingStar": "4.8",
-    "sales": 995,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ls-mtjwt5w8i5fk11",
-    "offerLink": "https://s.shopee.com.br/70M0gcXiyE",
-    "commissionRate": "0.04"
-   },
-   {
-    "itemId": 22594192134,
-    "shopId": 573065819,
-    "productName": "Kit 3 Vasinhos Cachepô Moderno com Suporte para Suculentas e Cactos Planta Artificial",
-    "priceMin": "26.9",
-    "ratingStar": "4.8",
-    "sales": 1827,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lu-mmusfovnohz62e",
-    "offerLink": "https://s.shopee.com.br/7AfQsvX5dH",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58262596606,
-    "shopId": 1564920774,
-    "productName": "Kit 3 Quadros Sala E Quarto Moderno Vasos Com Flores Douradas Moldura Elegante Tela Decorativa Paleta Preta E Ouro",
-    "priceMin": "28.9",
-    "ratingStar": "4.7",
-    "sales": 869,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lj-murriqbnllohca",
-    "offerLink": "https://s.shopee.com.br/3LSiJslgPY",
-    "commissionRate": "0.14"
-   },
-   {
-    "itemId": 58215857505,
-    "shopId": 1798255178,
-    "productName": "Kit De Quadros Decorativos 3 Peças Para Sala Quartos Vasos Pretos e Dourados Flores Modernas Delicadas",
-    "priceMin": "17.99",
+    "itemId": 23202150349,
+    "shopId": 406098001,
+    "productName": "Kit 5 Máscaras para Limpeza Facial Skin Care",
+    "priceMin": "3.25",
     "ratingStar": "4.6",
-    "sales": 995,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lj-mrnm7l5jrshyd4",
-    "offerLink": "https://s.shopee.com.br/3Vm8WBl34b",
+    "sales": 1818,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lu-mqhs1ie4mozmab",
+    "offerLink": "https://s.shopee.com.br/5fqdAUA51D",
     "commissionRate": "0.03"
    },
    {
-    "itemId": 23693189209,
-    "shopId": 349856668,
-    "productName": "kit 02 vasinhos decorativos com plantinhas artificiais e Letreiro Fè.",
-    "priceMin": "34.99",
-    "ratingStar": "4.9",
-    "sales": 1480,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l4-mpy1ucv0191fa1",
-    "offerLink": "https://s.shopee.com.br/3g5YiUkPje",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58252971683,
-    "shopId": 982145366,
-    "productName": "Kit de 4 ou 7 Vasinhos Decorativo em Gesso para Suculentas e Cactos - ENVIO FULL",
-    "priceMin": "14.9",
-    "ratingStar": "4.6",
-    "sales": 1348,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8260t-mj95u884n0ub05",
-    "offerLink": "https://s.shopee.com.br/3qOyunjmOh",
-    "commissionRate": "0.18"
-   },
-   {
-    "itemId": 23494224929,
-    "shopId": 406995298,
-    "productName": "Kit 4 Mini Vasos Decorativos - Cor e Plantas Artificiais Aleatórias",
-    "priceMin": "14.9",
-    "ratingStar": "4.7",
-    "sales": 1395,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m6-mv53qn4p9ji911",
-    "offerLink": "https://s.shopee.com.br/2gD1WeoDlU",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 23199140933,
-    "shopId": 1495887205,
-    "productName": "Planta Decorativa: Vasos Trançado Marrom + Pendentes Artificial Folhas De Bambu",
-    "priceMin": "20.89",
-    "ratingStar": "4.9",
-    "sales": 1648,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820li-mvq7qwahy9z634",
-    "offerLink": "https://s.shopee.com.br/2qWRixnaQX",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58260158105,
-    "shopId": 1546615633,
-    "productName": "Vaso Decorativo Romeu Âmbar em Vidro Transparente Elegância para Sua Decoração",
-    "priceMin": "38.93",
-    "ratingStar": "4.9",
-    "sales": 1481,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820m7-mqyp7xxz72mdbb",
-    "offerLink": "https://s.shopee.com.br/30prvGmx5a",
-    "commissionRate": "0.08"
-   }
-  ],
-  "vaso ceramica": [
-   {
-    "itemId": 22598202676,
-    "productName": "Vaso Sanitário Monobloco Cerâmica Modelo Acies VAB0003",
-    "priceMin": "524.89",
-    "ratingStar": "4.9",
-    "sales": 1565,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9ula91p99vd99",
-    "offerLink": "https://s.shopee.com.br/qlNLIQLDq"
-   },
-   {
-    "itemId": 21098023117,
-    "productName": "Vaso Sanitário Monobloco Cerâmica Modelo Diamante - VAB0005 Tubrax",
-    "priceMin": "569.46",
-    "ratingStar": "4.9",
-    "sales": 1350,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l4-mqw8i2vtvaitd2",
-    "offerLink": "https://s.shopee.com.br/gRx8zQyYp"
-   },
-   {
-    "itemId": 58209131767,
-    "productName": "Conjunto Vaso Estilo Cerâmica + Duas Plantas Penduradas Artificial Verde para Decoração de Parede",
-    "priceMin": "17.99",
-    "ratingStar": "4.8",
-    "sales": 1416,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-81zvz-mn68xcajey9v29",
-    "offerLink": "https://s.shopee.com.br/9pgC3ps4xc"
-   },
-   {
-    "itemId": 20598023274,
-    "productName": "Vaso Sanitário Monobloco Cerâmica Modelo Navies VAB0004",
-    "priceMin": "482",
-    "ratingStar": "4.9",
-    "sales": 648,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbcum3i2yhe763",
-    "offerLink": "https://s.shopee.com.br/9fMlrWsiIb"
-   },
-   {
-    "itemId": 23493540773,
-    "productName": "Kit 10 Vasos Cuia 21cm Terracota Marrom Haste 43cm Resistente Rosa Deserto Samambaia Cor Ceramica",
-    "priceMin": "23.82",
-    "ratingStar": "4.9",
-    "sales": 1121,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-82610-ml3yzb7ueccj8f",
-    "offerLink": "https://s.shopee.com.br/9V3LfDtLda"
-   },
-   {
-    "itemId": 22599291098,
-    "productName": "Vasos Decorativos com Orquídea Artificial em Gesso Cerâmico Branco para Sala, Escritório, Casa, Apartamento Decoração",
-    "priceMin": "19.99",
-    "ratingStar": "4.8",
-    "sales": 554,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk8e5q5oywaq7e",
-    "offerLink": "https://s.shopee.com.br/9KjvSutyyZ"
-   },
-   {
-    "itemId": 58255153395,
-    "productName": "Limpador Multiuso Cerâmicas Rejuntes Azulejos Vasos Sanitários Lavatórios Mictórios Azulim 1lt",
-    "priceMin": "22.99",
-    "ratingStar": "4.8",
-    "sales": 638,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ld-mtb1dhinc8ao52",
-    "offerLink": "https://s.shopee.com.br/AUvsr3pXbo"
-   },
-   {
-    "itemId": 22598939922,
-    "productName": "Arranjo Completo Vaso De Plástico Branco Médio + Pendente Semelhante Ao Natural Folhagem Artificial",
-    "priceMin": "22.99",
-    "ratingStar": "4.7",
-    "sales": 501,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf01l0drwy6dc1",
-    "offerLink": "https://s.shopee.com.br/AKcSekqAwn"
-   },
-   {
-    "itemId": 23294355494,
-    "productName": "PAR de Vaso plastico cerâmico + 4 Planta Pendurada Verde Artificial Bambu Parede Varanda",
-    "priceMin": "27.99",
-    "ratingStar": "4.7",
-    "sales": 452,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-me01yfeh1af428",
-    "offerLink": "https://s.shopee.com.br/AAJ2SRqoHm"
-   },
-   {
-    "itemId": 57554389996,
-    "productName": "Vaso Sanitário Privada Cerâmica Monobloco Caixa Acoplada Kit Completo Branco Esmaltado",
-    "priceMin": "592.28",
-    "ratingStar": "4.9",
-    "sales": 486,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8257u-mtqxbca6hcld19",
-    "offerLink": "https://s.shopee.com.br/9zzcG8rRcl"
-   },
-   {
-    "itemId": 23494515313,
-    "productName": "Centro de Mesa Decorativo com Prato e Kit 3 Bolas de Cerâmica – Enfeite para Sala, Rack ou Aparador",
-    "priceMin": "42.99",
-    "ratingStar": "4.8",
-    "sales": 341,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134211-820lc-mnbg3bu3ixaacf",
-    "offerLink": "https://s.shopee.com.br/8VAoTNx9fU"
-   },
-   {
-    "itemId": 26944807453,
-    "productName": "Kit Trio de Vasos Duna Premium Cerâmica Alta Qualidade Luxo Decoração Casa Sala Mesa",
-    "priceMin": "106.5",
-    "ratingStar": "4.9",
-    "sales": 307,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lc-mo5h9hcj5pmq83",
-    "offerLink": "https://s.shopee.com.br/8KrOH4xn0T"
-   },
-   {
-    "itemId": 52216593015,
-    "productName": "Arranjo de Flores Artificiais Palmeira Leque com Vaso de Cerâmica Revestido em Sisal e Capim Seco Estilo Boho CHic",
-    "priceMin": "78.9",
-    "ratingStar": "5",
-    "sales": 306,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m0-msa8bjk30j5we4",
-    "offerLink": "https://s.shopee.com.br/8AXy4lyQLS"
-   },
-   {
-    "itemId": 58260635436,
-    "productName": "Cachepot Vaso em Cerâmica Para Orquídea  e Outras Plantas Luxo Gota Sala Escritório Off White e Branco Somente Vaso",
-    "priceMin": "42.5",
-    "ratingStar": "4.9",
-    "sales": 366,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820me-mo7akqyqlfk0f9",
-    "offerLink": "https://s.shopee.com.br/80EXsSz3gR"
-   },
-   {
-    "itemId": 21699249334,
-    "productName": "Kit Vaso Castiçal Pequeno 2 Unidades Decoração de Festa Cerâmica Arranjo flores artificial 20x10",
-    "priceMin": "50",
-    "ratingStar": "4.9",
-    "sales": 278,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-lv1vczxxb5ovcc",
-    "offerLink": "https://s.shopee.com.br/9AQVGbucJg"
-   },
-   {
-    "itemId": 8194356474,
-    "productName": "Kit 12 Vaso De Parede Rattan Jardim Horta Vertical 1 Litro Cerâmica",
-    "priceMin": "35.99",
-    "ratingStar": "4.9",
-    "sales": 284,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lm-mmgt5hu7cr9i4d",
-    "offerLink": "https://s.shopee.com.br/90754IvFef"
-   },
-   {
-    "itemId": 22299493849,
-    "productName": "Vaso Elegante Cerâmica Colorido para Decorar Ambiente Luxo Cúpula Moderno Decoração Aniversário Casa",
-    "priceMin": "67.52",
-    "ratingStar": "4.9",
-    "sales": 288,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l9-mor8nw2kvh1icb",
-    "offerLink": "https://s.shopee.com.br/8pnerzvsze"
-   },
-   {
-    "itemId": 18935122782,
-    "productName": "Vaso Quadrado Coluna Rattan Pequeno cor Marmorizado ou Cerâmica 10 Litros Decoração Casa Ambientes",
-    "priceMin": "18.05",
-    "ratingStar": "4.9",
-    "sales": 237,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjk55ekbv4lf99",
-    "offerLink": "https://s.shopee.com.br/8fUEfgwWKd"
-   },
-   {
-    "itemId": 58254505082,
-    "productName": "Vasos Decorativos com Orquídea Artificial em Gesso Cerâmico Branco para Sala, Escritório, Casa, Apartamento Decoração",
-    "priceMin": "19.99",
-    "ratingStar": "4.8",
-    "sales": 254,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk8e5q601tky41",
-    "offerLink": "https://s.shopee.com.br/7AfQsw2ENM"
-   },
-   {
-    "itemId": 23998170980,
-    "productName": "Enfeite Dupla Vasos C/ Esfera Dourada Cerâmica Decoração P/ Rack Sala Várias Cores",
-    "priceMin": "79.12",
-    "ratingStar": "4.9",
-    "sales": 258,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m72scpafkjmv17",
-    "offerLink": "https://s.shopee.com.br/70M0gd2riL"
-   },
-   {
-    "itemId": 58219125400,
-    "productName": "Bota Natalina Cerâmica Papai Noel Botinha Galocha Decorativa Porta Talher Enfeite Vaso Decoração Natal",
-    "priceMin": "25.28",
-    "ratingStar": "4.9",
-    "sales": 255,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820ll-mtmv6gtq0tmo10",
-    "offerLink": "https://s.shopee.com.br/6q2aUK3V3K"
-   },
-   {
-    "itemId": 58203064713,
-    "productName": "Vasos Decorativos com Orquídea Artificial em Gesso Cerâmico Branco para Sala, Escritório, Casa, Apartamento Decoração",
-    "priceMin": "19.99",
-    "ratingStar": "4.8",
-    "sales": 278,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820mc-mqynapgxdybq3f",
-    "offerLink": "https://s.shopee.com.br/6fjAI148OJ"
-   },
-   {
-    "itemId": 57815894446,
-    "productName": "VASOS DECORATIVOS CERAMICA DESIGN VAZADOS MODERNO ELEGANTE SALA QUARTO APARADOR NUDE PRETO FOSCO",
-    "priceMin": "40.39",
-    "ratingStar": "4.9",
-    "sales": 229,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ls-mrt3fxjw19tw44",
-    "offerLink": "https://s.shopee.com.br/7pv7g9zh1Y"
-   },
-   {
-    "itemId": 22494446760,
-    "productName": "Arranjo de Flor Artificial com Buque de Mosquitinho Flor Sempre Viva e Vaso de Cerâmica Decoração para casa e escritório",
-    "priceMin": "40.5",
-    "ratingStar": "4.9",
-    "sales": 248,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mja4x151jhfn5a",
-    "offerLink": "https://s.shopee.com.br/7fbhTr0KMX"
-   },
-   {
-    "itemId": 58266982186,
-    "productName": "Vasos decorativos em Cerâmica",
-    "priceMin": "79.9",
-    "ratingStar": "4.9",
-    "sales": 196,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mh-mujeysr60z5t75",
-    "offerLink": "https://s.shopee.com.br/7VIHHY0xhW"
-   },
-   {
-    "itemId": 28395602009,
-    "productName": "Vaso Decorativo Planta Artificial Arranjo Eucalipto Vasos Ceramica Plantas Artificiais",
-    "priceMin": "26.9",
-    "ratingStar": "4.9",
-    "sales": 223,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820md-ms4acuzp8f7qca",
-    "offerLink": "https://s.shopee.com.br/7Kyr5F1b2V"
-   },
-   {
-    "itemId": 20297995125,
-    "productName": "Kit 7pç Prato Vasos Cerâmica decoração centro mesa rack sala",
-    "priceMin": "61",
-    "ratingStar": "4.9",
-    "sales": 182,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8262o-mlv87x02b6ki34",
-    "offerLink": "https://s.shopee.com.br/5qA3IU7J5E"
-   },
-   {
-    "itemId": 51054394731,
-    "productName": "Vaso Sanitário Privada Monobloco Caixa Acoplada Cerâmica Branco Esmaltado",
-    "priceMin": "592.28",
-    "ratingStar": "4.9",
-    "sales": 116,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825ar-mtqxbx3lz75y3b",
-    "offerLink": "https://s.shopee.com.br/5fqd6B7wQD"
-   },
-   {
-    "itemId": 22198178194,
-    "productName": "Vaso Onça para suculentas ( em cerâmica) não acompanha flores!o",
-    "priceMin": "37.99",
-    "ratingStar": "5",
-    "sales": 235,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ls-mrji7zfjer5xb4",
-    "offerLink": "https://s.shopee.com.br/5VXCts8ZlC"
-   },
-   {
-    "itemId": 22894336330,
-    "productName": "Trepadeira Artificial 2x2M com Vaso Plastico cerâmico cores decor",
-    "priceMin": "18.99",
-    "ratingStar": "4.7",
-    "sales": 210,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mdw8yc8p9ptse0",
-    "offerLink": "https://s.shopee.com.br/5LDmhZ9D6B"
-   },
-   {
-    "itemId": 22299471091,
-    "productName": "Enfeite Vaso Pinguim Ceramica Decoração Rack Sala Estante Aparador",
-    "priceMin": "79.89",
-    "ratingStar": "4.9",
-    "sales": 177,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820lp-mqxsoeiazked43",
-    "offerLink": "https://s.shopee.com.br/6VPk5i4ljQ"
-   },
-   {
-    "itemId": 23993577007,
-    "productName": "Kit 10, 20 Ou 30 Vasos Cuia 21cm Terracota Marrom/Preto com Haste 43cm Resistente Rosa do Deserto",
-    "priceMin": "25.89",
-    "ratingStar": "4.9",
-    "sales": 192,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825zp-ml3yzzlyttdse4",
-    "offerLink": "https://s.shopee.com.br/6L6JtP5P4P"
-   },
-   {
-    "itemId": 23899858926,
-    "productName": "Vaso Sanitário Dourado Monobloco Privada Jato Plus Ouro Caixa Acoplada Vertical Cerâmica Banheiro",
-    "priceMin": "1399",
-    "ratingStar": "4.8",
-    "sales": 43,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mb-mtyh0877x6v66f",
-    "offerLink": "https://s.shopee.com.br/6Amth662PO"
-   },
-   {
-    "itemId": 58254510552,
-    "productName": "Vasos  Murano Trouxinha Cerâmica Decoração Centro de Mesa Luxo Vaso de Flor",
-    "priceMin": "41.9",
-    "ratingStar": "4.9",
-    "sales": 203,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m9-mtbq8uklh05ea8",
-    "offerLink": "https://s.shopee.com.br/60TTUn6fkN"
-   },
-   {
-    "itemId": 20697874249,
-    "productName": "Vaso Sanitário com Caixa Acoplada Basic Branco em Cerâmica Dupla Descarga Smart Norte",
-    "priceMin": "539.61",
-    "ratingStar": "4.9",
-    "sales": 91,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m3-mvzj32t3ug3k11",
-    "offerLink": "https://s.shopee.com.br/4LLFVjD184"
-   },
-   {
-    "itemId": 23296850869,
-    "productName": "Conjunto Enfeite Ceramica Decoração Sala Rack Centro de Mesa  Estante Decorativo Cores",
-    "priceMin": "59.7",
-    "ratingStar": "4.8",
-    "sales": 169,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-lxu7ncssl1hbc5",
-    "offerLink": "https://s.shopee.com.br/4Vefi2CNn7"
-   },
-   {
-    "itemId": 22993258104,
-    "productName": "Vaso Urna Unitário Cerâmica Decoração Festa Aniversário Casamento Chá de bebê Diversas Cores",
-    "priceMin": "38.9",
-    "ratingStar": "4.9",
-    "sales": 207,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ln-moqs38yxsf0le9",
-    "offerLink": "https://s.shopee.com.br/40iP77EHo2"
-   },
-   {
-    "itemId": 58215729650,
-    "productName": "Vaso Sanitário Monobloco Privada com Caixa Acoplada Vertical Grande Jato Plus Cerâmica Banheiro",
-    "priceMin": "799",
-    "ratingStar": "4.9",
-    "sales": 79,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lb-mrkk35n5l69wbf",
-    "offerLink": "https://s.shopee.com.br/4B1pJQDeT5"
-   },
-   {
-    "itemId": 18198096605,
-    "productName": "Vasinho de cerâmica com folhagem de eucalipto artificial branco ou preto",
-    "priceMin": "19.98",
-    "ratingStar": "4.8",
-    "sales": 163,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lw-msrfzneoawp236",
-    "offerLink": "https://s.shopee.com.br/50awIxATmG"
-   },
-   {
-    "itemId": 22993702760,
-    "productName": "Vaso Sanitário Monobloco Preto Produzido em Cerâmica Modelo Diamante - Tubrax- VAB0020",
-    "priceMin": "856.65",
-    "ratingStar": "4.9",
-    "sales": 105,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m65eex470p5cc3",
-    "offerLink": "https://s.shopee.com.br/5AuMVG9qRJ"
-   }
-  ],
-  "bandeja decorativa": [
-   {
-    "itemId": 22894849336,
-    "productName": "Bandeja Redondo MDF Decorativa Para Café Chá Petisqueira Condimentos Casa Cozinha Mesa Posta",
-    "priceMin": "11.99",
-    "ratingStar": "4.7",
-    "sales": 2785,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81zul-mkmub68cbjlu7c",
-    "offerLink": "https://s.shopee.com.br/9V3LfEO95g"
-   },
-   {
-    "itemId": 23793496130,
-    "productName": "Bandeja Espelhada Banheiro Lavabo Bandeja Decorativa Multiuso Preta Dourada",
+    "itemId": 22094308515,
+    "shopId": 1451694145,
+    "productName": "Kit 50/40/30/20/10 Máscara Labial de Colágeno Hidratante, Tratamento para Lábios Ressecados",
     "priceMin": "16.98",
-    "ratingStar": "4.9",
-    "sales": 2098,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mf-mr68xd2dokqs56",
-    "offerLink": "https://s.shopee.com.br/9KjvSvOmQf"
+    "ratingStar": "5",
+    "sales": 2054,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m0-mvfu10mc5slc6c",
+    "offerLink": "https://s.shopee.com.br/AAJ2Wkswt6",
+    "commissionRate": "0.1"
    },
    {
-    "itemId": 45056823760,
-    "productName": "Bandeja Espelhada Decorativa Orgânico Couro Ecológico Premium 38x26cm Sala Quarto Banheiro Mesa Hall",
-    "priceMin": "44.9",
+    "itemId": 23398951924,
+    "shopId": 373261329,
+    "productName": "Principia Kit Dupla Diária Todo Tipo de Pele c/ Protetor Solar Facial PS-01 FPS 60 + Creme Hidratante CH-01",
+    "priceMin": "72.74",
     "ratingStar": "4.9",
-    "sales": 2066,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lz-mlf5x2xbx4hx2c",
-    "offerLink": "https://s.shopee.com.br/9pgC3qMsPm"
+    "sales": 1957,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfeat3mz3h1j58",
+    "offerLink": "https://s.shopee.com.br/9zzcKRtaE5",
+    "commissionRate": "0.17"
    },
    {
-    "itemId": 58207029711,
-    "productName": "Bandeja Aco Inoxidavel Luxo Decorativa para Jóias Alimentos Dourado-Multi bazar",
-    "priceMin": "13.99",
-    "ratingStar": "4.9",
-    "sales": 1943,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-82613-mlwl01kmzkea60",
-    "offerLink": "https://s.shopee.com.br/9fMlrXNVkl"
+    "itemId": 22999459475,
+    "shopId": 495151609,
+    "productName": "Kit 3 Óleo Essencial Melaleuca Tea Tree Puro 30ml - Acne Pele Cabelo Unha Aromaterapia Candidíase",
+    "priceMin": "12.99",
+    "ratingStar": "4.8",
+    "sales": 1934,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-820lt-mo4ujs1ph3b966",
+    "offerLink": "https://s.shopee.com.br/AUvsvMrgDC",
+    "commissionRate": "0.07"
    },
    {
-    "itemId": 58251443866,
-    "productName": "Bandeja Orgânica Decorativa Espelhada Dourada Multiuso Banheiro Lavabo Sala Preta Porta Maquiagem",
-    "priceMin": "18.99",
+    "itemId": 58208432235,
+    "shopId": 373261329,
+    "productName": "Principia Kit Anti-Acne Essencial c/ Gel de Limpeza GL-01 + Hidratação GH-01 + Sérum Mix-01 + Protetor Solar PS-01 FPS60",
+    "priceMin": "179.18",
     "ratingStar": "4.9",
-    "sales": 1669,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m9-muh6vs8eopab33",
-    "offerLink": "https://s.shopee.com.br/8pnes0QgRc"
+    "sales": 1651,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lp-mmsy97ne6q6c38",
+    "offerLink": "https://s.shopee.com.br/AKcSj3sJYB",
+    "commissionRate": "0.23"
    },
    {
-    "itemId": 21798098518,
-    "productName": "Bandeja Decorativa Retangular de MDF com Fundo Treliça 31,5x21,5cm - Lyor",
-    "priceMin": "40.99",
+    "itemId": 23494050492,
+    "shopId": 1045085918,
+    "productName": "Kit 2 Pomadas Babymed Rosa 45g",
+    "priceMin": "16.99",
+    "ratingStar": "4.9",
+    "sales": 1799,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mki5ez8lgumbef",
+    "offerLink": "https://s.shopee.com.br/9V3LjWvUF2",
+    "commissionRate": "0.07"
+   },
+   {
+    "itemId": 22794189474,
+    "shopId": 1543579690,
+    "productName": "ANA1108 KIT 30/60/90/150unidades máscaras faciais comprimidas para tratamento de beleza conveniente",
+    "priceMin": "11.98",
+    "ratingStar": "4.9",
+    "sales": 1759,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820lf-mr24cd9u3lza18",
+    "offerLink": "https://s.shopee.com.br/9KjvXDw7a1",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 22999318133,
+    "shopId": 299222557,
+    "productName": "KIT ate 800 idrocolóide Acne Remendos Rosto Espinha Adesivos Para Zits Tratamento De Ponto Cuidados Com A Pele Essencial",
+    "priceMin": "10.48",
+    "ratingStar": "4.8",
+    "sales": 1682,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8262w-mjzvaw9tzuv993",
+    "offerLink": "https://s.shopee.com.br/9pgC88uDZ8",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58265861335,
+    "shopId": 1725141887,
+    "productName": "Kits com 50 ou 100 Máscaras Facial Comprimida Pastilhas de Algodão para Sérum Skincare",
+    "priceMin": "18.89",
+    "ratingStar": "4.9",
+    "sales": 1618,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lu-mrool3qxea6df7",
+    "offerLink": "https://s.shopee.com.br/9fMlvpuqu7",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58215691341,
+    "shopId": 932259317,
+    "productName": "Kit Bruma Rosa Mosqueta 130ml Lady Beauty + Blindagem Poderosa Diluidor, Fixador Primer Dapop",
+    "priceMin": "24.9",
+    "ratingStar": "4.9",
+    "sales": 1599,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259x-msyrp9l1e70h09",
+    "offerLink": "https://s.shopee.com.br/8pnewIy1ay",
+    "commissionRate": "0.03"
+   }
+  ],
+  "gloss labial": [
+   {
+    "itemId": 22293678055,
+    "shopId": 488948242,
+    "productName": "3d Hydra Lipgloss Kiko Milano",
+    "priceMin": "20.88",
+    "ratingStar": "4.9",
+    "sales": 5424,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m5fu59n5bpe8b4",
+    "offerLink": "https://s.shopee.com.br/3g5YmodlFw",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 23598937960,
+    "shopId": 1616052629,
+    "productName": "Óleo Labial Rico SACE LADY Batom Ocheal Water-Light Dudu Hidratante E Sem Manchas",
+    "priceMin": "56.99",
+    "ratingStar": "4.8",
+    "sales": 3408,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820la-mv5gkgvk50xt62",
+    "offerLink": "https://s.shopee.com.br/3qOyz7d7uz",
+    "commissionRate": "0.08"
+   },
+   {
+    "itemId": 23493055465,
+    "shopId": 1188075260,
+    "productName": "Gloss Labial Efeito Volumão Bocão Ácido Hialurônico - Miss Lary",
+    "priceMin": "13.87",
+    "ratingStar": "4.7",
+    "sales": 3347,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rd6i-luzqae0c752se6",
+    "offerLink": "https://s.shopee.com.br/3LSiOCf1vu",
+    "commissionRate": "0.12"
+   },
+   {
+    "itemId": 20598023660,
+    "shopId": 1245783967,
+    "productName": "3D Hydra Gloss Kiko Milano",
+    "priceMin": "20.99",
+    "ratingStar": "4.9",
+    "sales": 3550,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m5fr3rr1osqt86",
+    "offerLink": "https://s.shopee.com.br/3Vm8aVeOax",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 22398671360,
+    "shopId": 389806204,
+    "productName": "KIKO MILANO Lip Gloss – Brilho Intenso, Efeito Espelhado e Textura Confortável",
+    "priceMin": "20.88",
+    "ratingStar": "4.8",
+    "sales": 2886,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lz-mrvsdy9mcp3bc0",
+    "offerLink": "https://s.shopee.com.br/30przagIbs",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58254217913,
+    "shopId": 1616052629,
+    "productName": "Gloss Labial Brilhante SACE LADY Não Pegajoso 16H Sem Transferência Brilho Vítreo",
+    "priceMin": "66.99",
+    "ratingStar": "4.6",
+    "sales": 2576,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m2-mrpjmn2u2pl35c",
+    "offerLink": "https://s.shopee.com.br/3B9IBtffGv",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 23392797171,
+    "shopId": 1126064857,
+    "productName": "Gloss Brilho Labial - Sarah's Beauty",
+    "priceMin": "11.99",
+    "ratingStar": "4.9",
+    "sales": 2110,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-lqdze0zvj47723",
+    "offerLink": "https://s.shopee.com.br/2gD1ayhZHq",
+    "commissionRate": "0.12"
+   },
+   {
+    "itemId": 23293614835,
+    "shopId": 322432427,
+    "productName": "Gloss Labial Franciny LipHoney 5g",
+    "priceMin": "20.99",
+    "ratingStar": "4.9",
+    "sales": 2214,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfl9c0wmrn5x50",
+    "offerLink": "https://s.shopee.com.br/2qWRnHgvwt",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 20497918856,
+    "shopId": 1120968356,
+    "productName": "Batom Balm Flor De Cristal Rosa Luxo - Brilho Molhado - Super Hidratante Com Longa Duração",
+    "priceMin": "14.99",
+    "ratingStar": "4.7",
+    "sales": 1500,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdjtckp2ajll3f",
+    "offerLink": "https://s.shopee.com.br/50awNGYgYK",
+    "commissionRate": "0.09"
+   },
+   {
+    "itemId": 58220071929,
+    "shopId": 1917794158,
+    "productName": "Gloss Labial de Mel Chaveiro Pote de Mel YVISIY Honey Lip Gloss 5ml Kit 6/12/24",
+    "priceMin": "30.99",
     "ratingStar": "4.9",
     "sales": 1706,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lf-mq3eymnq2vwged",
-    "offerLink": "https://s.shopee.com.br/8fUEfhRJmb"
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820li-mvjizp2ju5tsd6",
+    "offerLink": "https://s.shopee.com.br/5AuMZZY3DN",
+    "commissionRate": "0.07"
    },
    {
-    "itemId": 22095068852,
-    "productName": "10 Cesta Bandeja Mini Madeira Pinus Lembrancinha Decorativa",
-    "priceMin": "43.9",
+    "itemId": 22093703234,
+    "shopId": 1414741692,
+    "productName": "3d Hydra Lipgloss Kiko Milano",
+    "priceMin": "24",
     "ratingStar": "4.9",
-    "sales": 1419,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l8-mpdugs03n09160",
-    "offerLink": "https://s.shopee.com.br/9AQVGcPPli"
+    "sales": 1823,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m5udfb9tzxow22",
+    "offerLink": "https://s.shopee.com.br/4fy5yeZxEI",
+    "commissionRate": "0.03"
    },
    {
-    "itemId": 49014673649,
-    "productName": "Decorativo Ore e Confie com Vaso e Bandeja | Decoração Religiosa Moderna para Sala, Quarto e Escritório",
-    "priceMin": "13",
+    "itemId": 22797294113,
+    "shopId": 488948242,
+    "productName": "Brilho Labial - Sarah's Beauty",
+    "priceMin": "11.99",
+    "ratingStar": "4.9",
+    "sales": 1838,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-lqdy36l8yarn1a",
+    "offerLink": "https://s.shopee.com.br/4qHWAxZJtL",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 22794282269,
+    "shopId": 1188075260,
+    "productName": "Lip Gloss Volumoso Efeito Preenchimento Labial Aumenta a Boca Com Acido Hialurônico - Lady Beauty",
+    "priceMin": "13.9",
+    "ratingStar": "4.8",
+    "sales": 1649,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rdxd-mctw91efa8um45",
+    "offerLink": "https://s.shopee.com.br/4LLFa2bDuG",
+    "commissionRate": "0.12"
+   },
+   {
+    "itemId": 22998773883,
+    "shopId": 270854544,
+    "productName": "Lip Gloss Volumoso Aumenta Boca Efeito Preenchimento Labial Acido Hialurônico - Lady Beauty",
+    "priceMin": "15.29",
+    "ratingStar": "4.8",
+    "sales": 1566,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mewxnqpdn3szbc",
+    "offerLink": "https://s.shopee.com.br/4VefmLaaZJ",
+    "commissionRate": "0.07"
+   },
+   {
+    "itemId": 58266154449,
+    "shopId": 1824143738,
+    "productName": "Gloss Labial Franboesa com Mosquetão Chaveiro Brilho Labial Hidratante 5g Design Criativo Maquiagem Feminina",
+    "priceMin": "14.99",
+    "ratingStar": "4.9",
+    "sales": 1700,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lq-mn1gt4f3xqmc42",
+    "offerLink": "https://s.shopee.com.br/40iPBQcUaE",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58206181316,
+    "shopId": 1045085918,
+    "productName": "Hidratante Labial Carmed Sprite Incolor 10g",
+    "priceMin": "9.9",
+    "ratingStar": "5",
+    "sales": 1442,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m2-mlf0x7e5ecjo61",
+    "offerLink": "https://s.shopee.com.br/4B1pNjbrFH",
+    "commissionRate": "0.07"
+   },
+   {
+    "itemId": 41181175505,
+    "shopId": 1006215031,
+    "productName": "Conjunto de 12 Batons Mini Matte, Kit de Batom à Prova d'Água de Longa Duração, Suave e Sedoso, Gloss Labial Não Gruda",
+    "priceMin": "18.83",
+    "ratingStar": "4.8",
+    "sales": 998,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258f-mtqdhh9u4ah274",
+    "offerLink": "https://s.shopee.com.br/114nbunufg",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 58215222458,
+    "shopId": 422094137,
+    "productName": "Brilho Labial Gloss Hidratante Aroma De Mel 5g",
+    "priceMin": "11.99",
+    "ratingStar": "4.9",
+    "sales": 1569,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ly-mr8v6uqiklj95c",
+    "offerLink": "https://s.shopee.com.br/1BODoDnHKj",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58211875332,
+    "shopId": 1292479449,
+    "productName": "Gloss Labial com Chaveiro Fofo Lip Oil Brilho Hidratante Variados Com Cheiro Adulto Infantil",
+    "priceMin": "13.9",
+    "ratingStar": "4.9",
+    "sales": 1251,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-823oh-mp0e9dhi3tvxae",
+    "offerLink": "https://s.shopee.com.br/gRxDIpBLe",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 23494780818,
+    "shopId": 1316702385,
+    "productName": "Lip Balm Hidratante para Lábios Ressecados Muda de Cor À Prova D’Água",
+    "priceMin": "15.99",
+    "ratingStar": "4.9",
+    "sales": 1361,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820l7-mv6u6h649ypucf",
+    "offerLink": "https://s.shopee.com.br/qlNPboY0h",
+    "commissionRate": "0.11"
+   },
+   {
+    "itemId": 19595807571,
+    "shopId": 765427328,
+    "productName": "Batom Mágico De Mudança De Cor Temperatura À Prova D'água Hidratante Transparente Flor De Geleia Bálsamo Labial Cristal Maquiagem Cosmética",
+    "priceMin": "10",
     "ratingStar": "4.7",
-    "sales": 1339,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258a-mr04ev290veq96",
-    "offerLink": "https://s.shopee.com.br/90754JQ36h"
+    "sales": 429,
+    "imageUrl": "https://cf.shopee.com.br/file/cn-11134207-7r98o-lp2fqnkwqvdo70",
+    "offerLink": "https://s.shopee.com.br/Lp6ogqS1c",
+    "commissionRate": "0.03"
    },
    {
-    "itemId": 58203956076,
-    "productName": "Bandeja Aco Inoxidavel Luxo Decorativa para Jóias Alimentos Dourado",
-    "priceMin": "11.88",
+    "itemId": 23199440000,
+    "shopId": 1050314063,
+    "productName": "Gloss Labial The Glossier One Blow  by Ruby Rose - Envio Imediato",
+    "priceMin": "17.35",
     "ratingStar": "4.9",
-    "sales": 1369,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820m3-muf8bpucgrnn58",
-    "offerLink": "https://s.shopee.com.br/8AXy4mTDnY"
+    "sales": 1401,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lg-mn97a1c47dhc16",
+    "offerLink": "https://s.shopee.com.br/W8X0zpogf",
+    "commissionRate": "0.11"
    },
    {
-    "itemId": 40811033748,
-    "productName": "Bandeja Aco Inoxidavel Luxo Decorativa para Jóias Alimentos Dourado",
-    "priceMin": "14.9",
+    "itemId": 58207258496,
+    "shopId": 1192646767,
+    "productName": "Gloss Labial By Fran | Varios Modelos Disponíveis | Brilho 3D Alta Fixação - Escolha o seu",
+    "priceMin": "14",
     "ratingStar": "4.9",
-    "sales": 1212,
-    "imageUrl": "https://cf.shopee.com.br/file/cn-11134207-7ras8-mclgq31n5yiz22",
-    "offerLink": "https://s.shopee.com.br/80EXsTTr8X"
+    "sales": 1261,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lw-muqnmkn0esjk12",
+    "offerLink": "https://s.shopee.com.br/1CGQ4riha",
+    "commissionRate": "0.07"
    },
    {
-    "itemId": 52010363784,
-    "productName": "Bandeja Decorativa Espelho Banheiro Redondo Oval Orgânico Couro Mesa Sala Lavabo",
-    "priceMin": "18.84",
+    "itemId": 22992797291,
+    "shopId": 400897255,
+    "productName": "Gloss Labial - Escolha Sua Cor - Sarah's Beauty",
+    "priceMin": "11.99",
+    "ratingStar": "4.9",
+    "sales": 1348,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbfmvl4l4hk2f9",
+    "offerLink": "https://s.shopee.com.br/BVgcNr5Md",
+    "commissionRate": "0.13"
+   },
+   {
+    "itemId": 58219947109,
+    "shopId": 1855291699,
+    "productName": "Kit 6/12/24 Gloss Labial com Chaveiro Royal Echo Abelhinha Para Revenda Atacado",
+    "priceMin": "42.75",
+    "ratingStar": "4.9",
+    "sales": 1147,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lh-mvd5o1qdo1s0a7",
+    "offerLink": "https://s.shopee.com.br/2LaBCMipy4",
+    "commissionRate": "0.11"
+   },
+   {
+    "itemId": 29327832964,
+    "shopId": 1006215031,
+    "productName": "CmaaDu 1 Pcs Glitter Lip Gloss Batom De Longa Duração À Prova D'água Que Não Desbota Presente Perfeito Para Iniciantes",
+    "priceMin": "14.06",
     "ratingStar": "4.8",
-    "sales": 1121,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lc-mpb17hwhi9z92d",
-    "offerLink": "https://s.shopee.com.br/8VAoTORx7e"
+    "sales": 1159,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134301-7ratv-mb3b5732a15c11",
+    "offerLink": "https://s.shopee.com.br/2VtbOfiCd7",
+    "commissionRate": "0.09"
    },
    {
-    "itemId": 58217291967,
-    "productName": "Bandeja Decorativa Acrílico Retangular Grande Organizadora  Multiuso Casa Cozinha Cantinho do Café",
-    "priceMin": "21.9",
-    "ratingStar": "4.8",
-    "sales": 1233,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820md-mv7eyq7g1vy84e",
-    "offerLink": "https://s.shopee.com.br/8KrOH5SaSd"
-   },
-   {
-    "itemId": 58256360802,
-    "productName": "Bandeja Decorativa Espelhada Multiuso Sala Quarto Maquiagem Decoração 20x30CM Luxuosa Dourada Preta",
-    "priceMin": "27.99",
+    "itemId": 21599576548,
+    "shopId": 1126064857,
+    "productName": "Lip Gloss 3D Hydra Gloss-Kiko Milano",
+    "priceMin": "24",
     "ratingStar": "4.9",
-    "sales": 1103,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lg-murwq1nd0rgh02",
-    "offerLink": "https://s.shopee.com.br/7VIHHYVl9U"
+    "sales": 1132,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-m5bwaifxjpv612",
+    "offerLink": "https://s.shopee.com.br/20xKnkk6e2",
+    "commissionRate": "0.12"
    },
    {
-    "itemId": 58212257321,
-    "productName": "Kit 2 Bandejas Decorativas Espelhada Preta Dourada Porta Maquiagem Lavabo Sala e Banheiro Luxo",
-    "priceMin": "32.7",
-    "ratingStar": "4.9",
-    "sales": 1070,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m5-mtn3y0wa3tvnfb",
-    "offerLink": "https://s.shopee.com.br/7Kyr5FWOUT"
-   },
-   {
-    "itemId": 58216469019,
-    "productName": "Kit Cantinho do Café em MDF Preto com Bandeja + 4 Apliques Decorativos de Parede para Cozinha",
-    "priceMin": "12.89",
-    "ratingStar": "4.9",
-    "sales": 1038,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lf-ms1wwujkr8jq07",
-    "offerLink": "https://s.shopee.com.br/7pv7gAUUTa"
-   },
-   {
-    "itemId": 22294558789,
-    "productName": "Espelho de Maquiagem LED com Luz 3 Tons Cor Recarregável USB Touch Mesa com Bandeja",
-    "priceMin": "26",
-    "ratingStar": "4.9",
-    "sales": 1118,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lw-msctyagmxfrb91",
-    "offerLink": "https://s.shopee.com.br/7fbhTrV7oZ"
-   },
-   {
-    "itemId": 58269625232,
-    "productName": "Enfeite Decorativo Ore e Confie com Vaso Bandeja Planta e Mini Jesus",
-    "priceMin": "16.98",
-    "ratingStar": "4.8",
-    "sales": 1005,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ln-mvrqqy21zsht41",
-    "offerLink": "https://s.shopee.com.br/6q2aUKYIVQ"
-   },
-   {
-    "itemId": 58215981675,
-    "productName": "Escultura Decorativa Família com Bandeja Home | Enfeite Moderno para Sala e Aparador",
-    "priceMin": "13.99",
-    "ratingStar": "4.7",
-    "sales": 1069,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825a3-mrro0oj9nev6a4",
-    "offerLink": "https://s.shopee.com.br/6fjAI1YvqP"
-   },
-   {
-    "itemId": 58269887999,
-    "productName": "Bandeja Decorativa Folha Dourada Travessa MDF Decoração Centro de Mesa Aparador Penteadeira",
-    "priceMin": "28.99",
-    "ratingStar": "4.9",
-    "sales": 832,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-82586-mtzpc48gvqis96",
-    "offerLink": "https://s.shopee.com.br/7AfQswX1pW"
-   },
-   {
-    "itemId": 58215345492,
-    "productName": "Bandeja Decorativa Moderna com Borda Dourada ou Preta e Base Espelhada em Vidro",
-    "priceMin": "26.99",
-    "ratingStar": "4.9",
-    "sales": 941,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m6-mvdo6h2m639e27",
-    "offerLink": "https://s.shopee.com.br/70M0gdXfAV"
-   },
-   {
-    "itemId": 58269167436,
-    "productName": "Bandeja Aco Inoxidavel Luxo Decorativa para Jóias Alimentos Dourado",
-    "priceMin": "13",
-    "ratingStar": "4.9",
-    "sales": 899,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mr1ij9ti2j9jf2",
-    "offerLink": "https://s.shopee.com.br/6Amth6aprM"
-   },
-   {
-    "itemId": 22793500690,
-    "productName": "Bandeja Espelhada Banheiro Lavabo Bandeja Decorativa Multiuso Preta Dourada",
+    "itemId": 58205385449,
+    "shopId": 1118731806,
+    "productName": "Kit com 5/6/8/10 /20Brilhos Labiais e Batons Cremosos Moranguinho Morango 10g –  Hidratação, Brilho Morango",
     "priceMin": "17.99",
     "ratingStar": "4.9",
-    "sales": 879,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l4-mr68xd2dpzb8f9",
-    "offerLink": "https://s.shopee.com.br/60TTUnbTCL"
-   },
-   {
-    "itemId": 58258626367,
-    "productName": "Bandeja Espelhada Retangular Redonda Dourada Decorativa para Penteadeira Banheiro Lavabo e Perfumes Multiuso Luxo",
-    "priceMin": "33.99",
-    "ratingStar": "4.9",
-    "sales": 889,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mc-mptsxlybt4ox31",
-    "offerLink": "https://s.shopee.com.br/6VPk5iZZBS"
-   },
-   {
-    "itemId": 58201507086,
-    "productName": "Kit Mesa Decorada Luxo 5 Peças para Festa – Suporte de Bolo, Bandejas Decorativas e Vaso Ornamental",
-    "priceMin": "32.34",
-    "ratingStar": "4.8",
-    "sales": 813,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-82273-mhuwo132qcjk51",
-    "offerLink": "https://s.shopee.com.br/6L6JtPaCWR"
-   },
-   {
-    "itemId": 58271852831,
-    "productName": "Kit Natalina 3D com Papai Noel, Árvore de Natal, Floco de Neve e Bandeja Decorativa",
-    "priceMin": "37",
-    "ratingStar": "4.6",
-    "sales": 28,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820ll-muwkzrvp5m2o29",
-    "offerLink": "https://s.shopee.com.br/5VXCtsdNDI"
-   },
-   {
-    "itemId": 58270099000,
-    "productName": "Bandeja Decorativa Espelhada Redonda Dourada 22,5cm 2 em 1 Espelho de Parede Perfume Lavabo Luxo",
-    "priceMin": "21.89",
-    "ratingStar": "4.9",
-    "sales": 774,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lo-mu2w8l611pfmc1",
-    "offerLink": "https://s.shopee.com.br/5LDmhZe0YH"
-   },
-   {
-    "itemId": 58213600053,
-    "productName": "Bandeja de Bambu Natural Decorativa Retangular e Oval Elegante Cafe Mesa Posta Petisqueira",
-    "priceMin": "14.99",
-    "ratingStar": "4.8",
-    "sales": 872,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lw-msd4xqmirpjbf3",
-    "offerLink": "https://s.shopee.com.br/5qA3IUc6XO"
-   },
-   {
-    "itemId": 58207237043,
-    "productName": "Prato Centro de Mesa Jantar Girátorio Branco 30cm Bandeja Decorativa Mesa Posta Decoração",
-    "priceMin": "42",
-    "ratingStar": "4.6",
-    "sales": 648,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-82603-mm0o97axbhts92",
-    "offerLink": "https://s.shopee.com.br/5fqd6BcjsN"
-   },
-   {
-    "itemId": 55418787059,
-    "productName": "Presépio Decorativo de Natal Minimalista Decorativo com Bandeja e Vela de LED",
-    "priceMin": "53.35",
-    "ratingStar": "4.9",
-    "sales": 720,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m2-mtydzq73bldu0c",
-    "offerLink": "https://s.shopee.com.br/4qHW6efuZE"
-   },
-   {
-    "itemId": 22395505439,
-    "productName": "Bandeja Decorativa Espelhada Multiuso Retangular ou Redonda Porta Maquiagem ou Perfume Dourada",
-    "priceMin": "27.99",
-    "ratingStar": "4.8",
-    "sales": 769,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ll-mvx7vt8e6byb7d",
-    "offerLink": "https://s.shopee.com.br/4fy5uLgXuD"
-   },
-   {
-    "itemId": 58270246662,
-    "productName": "Decoração Presépio Natalino com Estrela LED Luminária e Bandeja Decorativa Enfeite de Natal para Mesa e Sala",
-    "priceMin": "20.61",
-    "ratingStar": "4.7",
-    "sales": 761,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lv-mu5ku26scjy822",
-    "offerLink": "https://s.shopee.com.br/5AuMVGedtK"
-   },
-   {
-    "itemId": 19199777818,
-    "productName": "Bandeja Decorativa Espelhada Redonda",
-    "priceMin": "29",
-    "ratingStar": "4.8",
-    "sales": 747,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lt-mn4p8qcechz441",
-    "offerLink": "https://s.shopee.com.br/50awIxfHEJ"
-   },
-   {
-    "itemId": 58202786331,
-    "productName": "Ore e Confie Vaso e Bandeja – Fé, Design Moderno e Elegância para seu Lar",
-    "priceMin": "25.89",
-    "ratingStar": "4.7",
-    "sales": 651,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lt-mvdfl7j37doj15",
-    "offerLink": "https://s.shopee.com.br/4B1pJQiRvA"
-   },
-   {
-    "itemId": 23993264773,
-    "productName": "Porta Capsulas Dolce Gusto Bandeja Decorativa P/ 48 cps Suporte Com Gaveta 3 corações Organizadora",
-    "priceMin": "54.26",
-    "ratingStar": "4.8",
-    "sales": 702,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lu-mtjkkc5af4sha4",
-    "offerLink": "https://s.shopee.com.br/40iP77j5G9"
-   },
-   {
-    "itemId": 58266022768,
-    "productName": "Bandeja Decorativa Para Café Chá Petisqueira Condimentos Casa Cozinha Mesa Posta",
-    "priceMin": "11.99",
-    "ratingStar": "4.7",
-    "sales": 693,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m7-mrsqp53dzm6e47",
-    "offerLink": "https://s.shopee.com.br/4Vefi2hBFG"
-   },
-   {
-    "itemId": 58202966763,
-    "productName": "Enfeite Decorativo “Ore e Confie” com Vaso, Bandeja e PLANTA – Fé, Design Moderno e Elegância",
-    "priceMin": "11.43",
-    "ratingStar": "4.7",
-    "sales": 562,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mj8tpy0qr3eucf",
-    "offerLink": "https://s.shopee.com.br/4LLFVjhoaF"
-   },
-   {
-    "itemId": 23998629359,
-    "productName": "Bandeja Decorativa Espelhada Multiuso Retangular Metal Dourado",
-    "priceMin": "26.43",
-    "ratingStar": "4.8",
-    "sales": 619,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l8-mpv546hz591c87",
-    "offerLink": "https://s.shopee.com.br/3Vm8WCkzH6"
-   },
-   {
-    "itemId": 53365428819,
-    "productName": "Bandeja Espelhada Decorativa Orgânico Couro Ecológico Premium 30x21cm Sala Quarto Banheiro Mesa Hall",
-    "priceMin": "33.9",
-    "ratingStar": "4.7",
-    "sales": 626,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l9-mri051qn6fpj04",
-    "offerLink": "https://s.shopee.com.br/3LSiJtlcc5"
-   },
-   {
-    "itemId": 58219119071,
-    "productName": "Bandeja Folha 49,3CM Dourada Centro De Mesa Decorativa MDF Casa Decoração Luxo Presente Elegante",
-    "priceMin": "27.9",
-    "ratingStar": "4.9",
-    "sales": 615,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mf-mtmtom6n4ohsd4",
-    "offerLink": "https://s.shopee.com.br/3qOyuojibC"
-   },
-   {
-    "itemId": 58260551887,
-    "productName": "Kit Lavabo Pet Kit Completo 300 ML Luxo Com Bandeja Promoção Decorativo Escritorio Casa Nova",
-    "priceMin": "43.9",
-    "ratingStar": "4.7",
-    "sales": 625,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lp-mo5ttoe42i2o4d",
-    "offerLink": "https://s.shopee.com.br/3g5YiVkLwB"
-   }
-  ],
-  "capa almofada": [
-   {
-    "itemId": 44760768675,
-    "shopId": 359531620,
-    "productName": "KIT 4 CAPAS DE ALMOFADAS DECORATIVAS NATAL PAPAI NOEL BONECO DE NEVE FELIZ NATAL  RENA LANÇAMENTO 2026",
-    "priceMin": "36.82",
-    "ratingStar": "4.8",
-    "sales": 10173,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m5-mpxrmgg01s023b",
-    "offerLink": "https://s.shopee.com.br/2LaB846gVu",
+    "sales": 1157,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-82629-mkv20hokqo0683",
+    "offerLink": "https://s.shopee.com.br/2BGl03jTJ5",
     "commissionRate": "0.03"
    },
    {
-    "itemId": 22599528820,
-    "shopId": 1394853067,
-    "productName": "KIT 4 CAPAS DE ALMOFADAS DECORATIVAS NATAL ,PAPAI NOEL ,BONECO DE NEVE,RENA COLEÇÃO 2026",
-    "priceMin": "36.81",
+    "itemId": 58208857887,
+    "shopId": 1250722502,
+    "productName": "Kit Lip Gloss Flor 3 Cores 💐 Gloss Labial Hidratante Brilho Espelhado | Maquiagem Fofa Kawaii Chaveiro Feminino MG-89",
+    "priceMin": "25.99",
+    "ratingStar": "5",
+    "sales": 1168,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m8-mn24fwhkw0sh47",
+    "offerLink": "https://s.shopee.com.br/1gKUP8lNK0",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58206609250,
+    "shopId": 1192646767,
+    "productName": "Gloss Labial By Fran e By Pam |Hidratante Efeito Brilho Espelhado - Longa Duração",
+    "priceMin": "14.22",
     "ratingStar": "4.9",
-    "sales": 8552,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lr-mt7hhg8jxa130b",
-    "offerLink": "https://s.shopee.com.br/2VtbKN63Ax",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 58201876118,
-    "shopId": 1398321074,
-    "productName": "Kit 4 Capas Almofada 40x40 Suede Luxo Zíper Invisível Decoração Sala Sofá Quarto Enxoval",
-    "priceMin": "31.99",
-    "ratingStar": "4.9",
-    "sales": 6942,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lj-mruhornqtu6d89",
-    "offerLink": "https://s.shopee.com.br/1LhdwEAUXk",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 43182386687,
-    "shopId": 640877443,
-    "productName": "Kit Manta Decorativa 1,40 x1,70 + 4 Capas de Almofada Natal 43x43 para Sala e Sofá Decoração Natalina",
-    "priceMin": "74.9",
-    "ratingStar": "4.5",
-    "sales": 4978,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lo-mvynvci5rv9d33",
-    "offerLink": "https://s.shopee.com.br/1W148X9rCn",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 23199680933,
-    "shopId": 1376568391,
-    "productName": "KIT 4 CAPAS DE ALMOFADAS DECORATIVAS NATAL PAPAI NOEL BONECO DE NEVE FELIZ NATAL  RENA LANÇAMENTO 2026",
-    "priceMin": "40.41",
-    "ratingStar": "4.8",
-    "sales": 6557,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lm-msr2rik9ne2t7a",
-    "offerLink": "https://s.shopee.com.br/1gKUKq9Drq",
-    "commissionRate": "0.08"
-   },
-   {
-    "itemId": 55468273100,
-    "shopId": 378426011,
-    "productName": "Capa Almofada Natal PET 42x42 Animais Fofos Decoração Natalina",
-    "priceMin": "10.25",
-    "ratingStar": "4.8",
-    "sales": 4553,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lk-mth19w0s07wgae",
-    "offerLink": "https://s.shopee.com.br/1qduX98aWt",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 21399332746,
-    "shopId": 956644564,
-    "productName": "NATAL! Kit com 4 Capas para Almofadas Decorativas Natal Papai Noel 45x45 cm",
-    "priceMin": "39.99",
-    "ratingStar": "4.9",
-    "sales": 5089,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820la-mr0fsr2swx6v16",
-    "offerLink": "https://s.shopee.com.br/gRx90D1tg",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 43634047502,
-    "shopId": 1725814812,
-    "productName": "KIT 4 CAPAS DE ALMOFADAS DECORATIVAS NATAL PAPAI NOEL BONECO DE NEVE FELIZ NATAL LANÇAMENTO 2026 NV",
-    "priceMin": "49.9",
-    "ratingStar": "4.5",
-    "sales": 4597,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825ad-msixr8nnu9s834",
-    "offerLink": "https://s.shopee.com.br/qlNLJCOYj",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 23097749883,
-    "shopId": 359531620,
-    "productName": "KIT 4 CAPAS DE ALMOFADAS DECORATIVAS NATAL PAPAI NOEL BONECO DE NEVE FELIZ NATAL  RENA - TAMANHO 45X45",
-    "priceMin": "38.17",
-    "ratingStar": "4.8",
-    "sales": 4536,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-lzjiyoyxsrola6",
-    "offerLink": "https://s.shopee.com.br/114nXcBlDm",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 58257090824,
-    "shopId": 1366028631,
-    "productName": "Kit 4 Capas de Almofada 40x40 Suede Luxo Decorativa para Sofá Sala Quarto Macia com Zíper",
-    "priceMin": "31.99",
-    "ratingStar": "4.9",
-    "sales": 4363,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m9-mmm1sfjpscna7b",
-    "offerLink": "https://s.shopee.com.br/1BODjvB7sp",
-    "commissionRate": "0.11"
-   },
-   {
-    "itemId": 23397894904,
-    "shopId": 776052375,
-    "productName": "Kit 4 Capas de Almofada Natalinas 43x43 Estampadas Xadrez – Decoração de Natal",
-    "priceMin": "39.99",
-    "ratingStar": "4.6",
-    "sales": 3802,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m4-mtfc0w6ol6gwd8",
-    "offerLink": "https://s.shopee.com.br/1CGLmFZFc",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58219456923,
-    "shopId": 1668255751,
-    "productName": "Kit 4 Capas de Almofada Natalinas 40cmx40cm Micropercal Sublimadas Natal Estampas Exclusivas",
-    "priceMin": "46.9",
-    "ratingStar": "4.8",
-    "sales": 2909,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8258c-mtr8ortjytc5d2",
-    "offerLink": "https://s.shopee.com.br/BVgY5Evuf",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 23995051938,
-    "shopId": 630623018,
-    "productName": "Kit 5 Capas De Almofadas Fofinho caneladas/trançada 43X43",
-    "priceMin": "34.9",
-    "ratingStar": "4.9",
-    "sales": 3909,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m4-msk4iirdi4g6a9",
-    "offerLink": "https://s.shopee.com.br/Lp6kOEIZi",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 23697610532,
-    "shopId": 1272678692,
-    "productName": "CAPAS NATALINAS Kit com 4 Capas para Almofadas Decorativas 45X45 Direto de Fabrica",
-    "priceMin": "35.94",
-    "ratingStar": "4.9",
-    "sales": 3723,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m2-mqz4129z2m8466",
-    "offerLink": "https://s.shopee.com.br/W8WwhDfEl",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 19899563511,
-    "shopId": 379029459,
-    "productName": "Kit 3 Capas de Almofadas Natalinas 45x45cm Decorativas Natal Papai Noel Feliz Natal com Zíper",
-    "priceMin": "29.99",
-    "ratingStar": "4.6",
-    "sales": 2424,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lo-murw8c814wsjbd",
-    "offerLink": "https://s.shopee.com.br/AAJ2SScrce",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 58212669834,
-    "shopId": 776052375,
-    "productName": "Kit Manta Decorativa P + 4 Capas de Almofadas Natalinas Estampa Digital Decoração Natal",
-    "priceMin": "74.9",
-    "ratingStar": "4.5",
-    "sales": 3544,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lo-mvynvci5qgox0f",
-    "offerLink": "https://s.shopee.com.br/9zzcG9dUxd",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 58266876758,
-    "shopId": 1191729316,
-    "productName": "KIt com 4 capas de almofada natalina decoração Natal estampa digital com ziper",
-    "priceMin": "39.69",
-    "ratingStar": "4.9",
-    "sales": 3110,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lt-msbcrpis97us2e",
-    "offerLink": "https://s.shopee.com.br/AUvsr4bawk",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 57004268445,
-    "shopId": 264979861,
-    "productName": "Almofada Anti-Choque De Porta De Carro De Silicone-Protetor De Fechadura-Capa De Amortecedor De Redução De Ruído-Absorçã",
-    "priceMin": "9.09",
-    "ratingStar": "4.5",
-    "sales": 4248,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8261w-mj6cbuyjkm4l00",
-    "offerLink": "https://s.shopee.com.br/AKcSelcEHj",
+    "sales": 1136,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l4-mpo1io6by2gy73",
+    "offerLink": "https://s.shopee.com.br/1qdubRkjz3",
     "commissionRate": "0.07"
    },
    {
-    "itemId": 58255534121,
-    "shopId": 1643556477,
-    "productName": "Kit Peseira Para Cama 3 Peças 2 Capas de Almofadas Decorativa Flannel Fofinho Macio Casal Queen King",
-    "priceMin": "49.9",
+    "itemId": 55019510587,
+    "shopId": 290598330,
+    "productName": "KIT CARMED SOS LÁBIOS ESFOLIANTE LABIAL + HIDRATANTE ULTRA GLOSS ALGODÃO DOCE",
+    "priceMin": "15.9",
     "ratingStar": "4.9",
-    "sales": 3015,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820lo-mtskhzlzv28318",
-    "offerLink": "https://s.shopee.com.br/9V3LfEfOya",
-    "commissionRate": "0.07"
-   },
-   {
-    "itemId": 58257024938,
-    "shopId": 1338165044,
-    "productName": "Kit 4 Capas de Almofada 40x40 Suede Premium Drapeada Decorativa Zíper Luxo",
-    "priceMin": "31.99",
-    "ratingStar": "4.9",
-    "sales": 3153,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m1-mmtgx74d0tttbf",
-    "offerLink": "https://s.shopee.com.br/9KjvSvg2JZ",
-    "commissionRate": "0.11"
-   },
-   {
-    "itemId": 22696894943,
-    "shopId": 315985635,
-    "productName": "kit Feliz Natal 4 peças capa de almofadas para decoração Natalina",
-    "priceMin": "29.9",
-    "ratingStar": "4.7",
-    "sales": 2824,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lp-msqdyucgb28697",
-    "offerLink": "https://s.shopee.com.br/9pgC3qe8Ig",
+    "sales": 1125,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259o-mui82j2dcft3f8",
+    "offerLink": "https://s.shopee.com.br/1Lhe0Wmdzy",
     "commissionRate": "0.03"
    },
    {
-    "itemId": 23793476519,
-    "shopId": 546312452,
-    "productName": "Kit 4 Capas de Almofadas Decorativas Natal 45x45 com Zíper",
-    "priceMin": "29.9",
-    "ratingStar": "4.7",
-    "sales": 2535,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m0-mr8s9uk1afwm10",
-    "offerLink": "https://s.shopee.com.br/9fMlrXeldf",
+    "itemId": 58215226556,
+    "shopId": 422094137,
+    "productName": "Gloss Labial Framboesa com Pingente By Fran | Brilho Intenso | Efeito Glossy",
+    "priceMin": "15",
+    "ratingStar": "4.9",
+    "sales": 1056,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l4-mr8uixniae4mdf",
+    "offerLink": "https://s.shopee.com.br/1W14Cpm0f1",
     "commissionRate": "0.03"
    },
    {
-    "itemId": 28686594574,
-    "shopId": 1045628834,
-    "productName": "Almofada De Sucção De Silicone Para Dispositivo Elétrico De Celular , Ventosa De Borracha Com Suporte",
-    "priceMin": "7.99",
+    "itemId": 22793858803,
+    "shopId": 1382637858,
+    "productName": "Lip Gloss 3D Hydra Gloss-Kiko Milano",
+    "priceMin": "20.77",
+    "ratingStar": "4.9",
+    "sales": 990,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-meblwwu61fr48b",
+    "offerLink": "https://s.shopee.com.br/90758cJSRU",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 58271416688,
+    "shopId": 1292479449,
+    "productName": "Kit 2 Gloss Labial com Chaveiro Fofo Lip Oil Brilho Hidratante Variados Com Cheiro Adulto Infantil",
+    "priceMin": "24.9",
+    "ratingStar": "5",
+    "sales": 916,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-8259o-muqzy168kgebed",
+    "offerLink": "https://s.shopee.com.br/9AQVKvIp6X",
+    "commissionRate": "0.03"
+   },
+   {
+    "itemId": 23495058235,
+    "shopId": 818642329,
+    "productName": "Gloss Labial Hidratante LipHoney Efeito Glow Brilho Intenso Natural Mel Portátil Lip Oil",
+    "priceMin": "13.99",
     "ratingStar": "4.8",
-    "sales": 3442,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rfgb-m9seagczqff3ec",
-    "offerLink": "https://s.shopee.com.br/8pnes0hwKW",
+    "sales": 904,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mf-mqner83hjvnkf1",
+    "offerLink": "https://s.shopee.com.br/8fUEk0Kj7S",
     "commissionRate": "0.11"
    },
    {
-    "itemId": 23993474347,
-    "shopId": 776052375,
-    "productName": "Kit 4 Capas de Almofada Digital Magia Natalina Xadrez",
-    "priceMin": "42.9",
-    "ratingStar": "4.7",
-    "sales": 2725,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m1-mottamzi0k5cc4",
-    "offerLink": "https://s.shopee.com.br/8fUEfhiZfV",
+    "itemId": 23998685041,
+    "shopId": 400897255,
+    "productName": "3D Hydra Gloss Kiko Milano",
+    "priceMin": "24",
+    "ratingStar": "4.9",
+    "sales": 955,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbtfoct65il5e8",
+    "offerLink": "https://s.shopee.com.br/8pnewJK5mV",
     "commissionRate": "0.13"
    },
    {
-    "itemId": 58215548303,
-    "shopId": 1318410622,
-    "productName": "Kit 4 Capas de Almofada Decorativa Linho 40x40 Zíper Rústica Toque Macio Sofá Sala Quarto Decoração",
-    "priceMin": "39.91",
-    "ratingStar": "4.9",
-    "sales": 3060,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m5-msbkarcu8t8n06",
-    "offerLink": "https://s.shopee.com.br/9AQVGcgfec",
+    "itemId": 58215553400,
+    "shopId": 1545008679,
+    "productName": "Henna Labial Pigmentante Makiaj Rosa e Vermelha Com Colágeno Ácido Hialurônico Gloss Hidratante Efeito Natural",
+    "priceMin": "23",
+    "ratingStar": "4.7",
+    "sales": 957,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ls-mrhbu5bpwwzq0c",
+    "offerLink": "https://s.shopee.com.br/8KrOLOLznQ",
     "commissionRate": "0.11"
    },
    {
-    "itemId": 11171354560,
-    "shopId": 340708841,
-    "productName": "Kit C/ 4 Capas De Almofada Modern Print Geométricas Natal 45X45",
-    "priceMin": "34.19",
-    "ratingStar": "4.6",
-    "sales": 2938,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820ls-mrzv0b3act1g92",
-    "offerLink": "https://s.shopee.com.br/90754JhIzb",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 56518613214,
-    "shopId": 352108512,
-    "productName": "Kit 4 capas de almofadas Decorativas Natalinas - Christmas Vermelho",
-    "priceMin": "39.4",
-    "ratingStar": "4.3",
-    "sales": 1610,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820m2-mtqnhfcxbrb792",
-    "offerLink": "https://s.shopee.com.br/8AXy4mkTgS",
+    "itemId": 23899347945,
+    "shopId": 1418935539,
+    "productName": "LIP HONEY HELLO KITTY HIDRADANTE/BRILHO LABIAL COM AROMA DE MEL / FOFO & PRESENTEÁVEL",
+    "priceMin": "15.2",
+    "ratingStar": "4.9",
+    "sales": 968,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820ma-mldy17pami9ycd",
+    "offerLink": "https://s.shopee.com.br/8VAoXhLMST",
     "commissionRate": "0.03"
    },
    {
-    "itemId": 22397737339,
-    "shopId": 352108512,
-    "productName": "Kit 04 Capa De Almofada 45cm x 45cm Decorativa Natal Areia",
-    "priceMin": "32.99",
-    "ratingStar": "4.5",
-    "sales": 2546,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lc-mts651e2vkld22",
-    "offerLink": "https://s.shopee.com.br/80EXsTl71R",
-    "commissionRate": "0.08"
-   },
-   {
-    "itemId": 22399259005,
-    "shopId": 1621009510,
-    "productName": "Kit 2 Capas de Almofada Suede Drapeadas 45x45 com Zíper Invisível – Acabamento Premium",
-    "priceMin": "19.6",
-    "ratingStar": "4.9",
-    "sales": 2524,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81ztc-mj8marr04ykma1",
-    "offerLink": "https://s.shopee.com.br/8VAoTOjD0Y",
-    "commissionRate": "0.08"
-   },
-   {
-    "itemId": 17789526954,
-    "shopId": 640877443,
-    "productName": "Kit 4 Capas de Almofada 43x43 cm Estampa Digital Decoração Natalina",
-    "priceMin": "42.9",
+    "itemId": 20697680699,
+    "shopId": 1188075260,
+    "productName": "Gloss Bocão Labial Ácido Hialurônico - Miss Lary",
+    "priceMin": "13.87",
     "ratingStar": "4.7",
-    "sales": 2200,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lr-ms46ao1gpq10cc",
-    "offerLink": "https://s.shopee.com.br/8KrOH5jqLX",
-    "commissionRate": "0.13"
+    "sales": 748,
+    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-7rd55-luzqacufwgax75",
+    "offerLink": "https://s.shopee.com.br/80EXwmNGTO",
+    "commissionRate": "0.12"
    },
    {
-    "itemId": 19798957628,
-    "shopId": 315985635,
-    "productName": "kit 4 capas de almofadas Decorativas Natal",
-    "priceMin": "29.9",
-    "ratingStar": "4.7",
-    "sales": 2395,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mh-ms1xbuqg9ddwb1",
-    "offerLink": "https://s.shopee.com.br/7VIHHYn12O",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 58218039348,
-    "shopId": 1086517956,
-    "productName": "Kit 2 Capas de Almofada Canelada ou Trançada Aveludada 45x45 com Zíper Decorativa Sofá Sala Quarto Luxo",
-    "priceMin": "30.59",
-    "ratingStar": "4.8",
-    "sales": 2597,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820m7-mvowhoevcd1cb3",
-    "offerLink": "https://s.shopee.com.br/7Kyr5FneNN",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 21598324472,
-    "shopId": 776052375,
-    "productName": "Kit Manta Decorativa P + 4 Capas de Almofadas Estampa Digital para Sala",
-    "priceMin": "74.9",
-    "ratingStar": "4.7",
-    "sales": 2495,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l9-mt9xjl3e1q0x78",
-    "offerLink": "https://s.shopee.com.br/7pv7gAlkMU",
-    "commissionRate": "0.16"
-   },
-   {
-    "itemId": 58259030575,
-    "shopId": 1410617268,
-    "productName": "Kit 4 Capas de Almofada 40x40 Suede Luxo Decorativa para Sofá Sala Quarto Macia com Zíper ENVIO FULL",
-    "priceMin": "38.92",
+    "itemId": 22498914025,
+    "shopId": 397519267,
+    "productName": "Gloss Labial LipHoney Fran by Franciny Ehlke 5g - Mel",
+    "priceMin": "15",
     "ratingStar": "4.9",
-    "sales": 2218,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-81ztt-mn4txvflfhmr91",
-    "offerLink": "https://s.shopee.com.br/7fbhTrmNhT",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 23495174172,
-    "shopId": 1237110912,
-    "productName": "KIT 4 CAPAS DE ALMOFADAS DECORATIVAS NATAL PAPAI NOEL BONECO DE NEVE FELIZ NATAL  RENA LANÇAMENTO 2026",
-    "priceMin": "39.51",
-    "ratingStar": "4.8",
-    "sales": 2178,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lw-mt88ri07xblv50",
-    "offerLink": "https://s.shopee.com.br/6q2aUKpYOK",
+    "sales": 905,
+    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhpnrgygpvk257",
+    "offerLink": "https://s.shopee.com.br/8AXy95Md8R",
     "commissionRate": "0.03"
-   },
-   {
-    "itemId": 58210649314,
-    "shopId": 1086517956,
-    "productName": "KIT 3 Peças Cama Posta 1 Peseira e 2 Capas de Almofada Decorativa Flannel Trançado e Canelado bem Elegante",
-    "priceMin": "54.35",
-    "ratingStar": "4.8",
-    "sales": 2519,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134201-820mc-mvowehhc47pecc",
-    "offerLink": "https://s.shopee.com.br/6fjAI1qBjJ",
-    "commissionRate": "0.03"
-   },
-   {
-    "itemId": 58258580689,
-    "shopId": 1386779319,
-    "productName": "Kit 4 Capas de Almofadas para Sofá Premiun Suede Decorativo Casa Sala Quarto Slim",
-    "priceMin": "39.99",
-    "ratingStar": "4.9",
-    "sales": 2163,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820l4-msiz72mua32f15",
-    "offerLink": "https://s.shopee.com.br/7AfQswoHiQ",
-    "commissionRate": "0.13"
-   },
-   {
-    "itemId": 11415015865,
-    "shopId": 409158085,
-    "productName": "Kit Decorativo 04 Capas para Almofada 45x45cm Diversas Cores Decoração Sala Moderna Luxo",
-    "priceMin": "29.9",
-    "ratingStar": "4.9",
-    "sales": 1983,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820mg-msn2ydo5scn834",
-    "offerLink": "https://s.shopee.com.br/70M0gdov3P",
-    "commissionRate": "0.18"
-   },
-   {
-    "itemId": 58207078783,
-    "shopId": 1338165044,
-    "productName": "Kit 4 Capas de Almofada 40x40 cm Suede Premium Decorativa Luxo para Sofá Sala Quarto com Zíper",
-    "priceMin": "31.99",
-    "ratingStar": "4.9",
-    "sales": 1861,
-    "imageUrl": "https://cf.shopee.com.br/file/br-11134207-820lv-mt1lqjalovt2eb",
-    "offerLink": "https://s.shopee.com.br/6Amth6s5kG",
-    "commissionRate": "0.11"
-   },
-   {
-    "itemId": 58267788856,
-    "shopId": 329999127,
-    "productName": "Kit 4 Capas de Almofada Natal Decoração Natalina Estampa Papai Noel",
-    "priceMin": "30",
-    "ratingStar": "4.6",
-    "sales": 1732,
-    "imageUrl": "https://cf.shopee.com.br/file/sg-11134201-825ax-mswix5awb5dy24",
-    "offerLink": "https://s.shopee.com.br/60TTUnsj5F",
-    "commissionRate": "0.11"
    }
   ]
  }
