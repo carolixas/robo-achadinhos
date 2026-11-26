@@ -1,8 +1,9 @@
 name: Responder "comenta QUERO"
+# O agendamento do GitHub atrasa muito (*/5 rodava ~1x por hora). Por isso cada execução
+# fica ~50 min no ar checando os comentários a cada 60 s, e uma nova entra a cada 30 min.
 on:
   schedule:
-    - cron: "*/5 11-23 * * *"   # 08h–20h59 (Brasília)
-    - cron: "*/5 0-2 * * *"     # 21h–23h59 (Brasília)
+    - cron: "3,33 * * * *"
   workflow_dispatch:
     inputs:
       teste:
@@ -16,17 +17,22 @@ concurrency:
 jobs:
   responder:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
-      - name: Responder comentários pedindo os links
+      - name: Responder comentários pedindo os links (a cada 60 s por ~50 min)
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           TESTE: ${{ github.event.inputs.teste }}
-        run: python3 publicar/responder.py
-      - name: Guardar quem já foi respondido
         run: |
           git config user.name "robo-achadinhos"
           git config user.email "robo-achadinhos@users.noreply.github.com"
-          git add publicar/respondidos.json
-          git diff --cached --quiet || (git commit -q -m "QUERO: respostas $(date -u +%FT%TZ)" && git pull --rebase -q && git push -q)
+          fim=$(( $(date +%s) + 50*60 ))
+          while [ $(date +%s) -lt $fim ]; do
+            git pull --rebase -q || true
+            python3 publicar/responder.py || echo "falhou esta rodada"
+            git add publicar/respondidos.json
+            git diff --cached --quiet || (git commit -q -m "QUERO: respostas $(date -u +%FT%TZ)" && (git push -q || (git pull --rebase -q && git push -q)))
+            [ "$TESTE" = "1" ] && break
+            sleep 60
+          done
