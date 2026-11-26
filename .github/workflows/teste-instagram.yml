@@ -17,3 +17,9 @@ jobs:
           curl -s "https://graph.facebook.com/v23.0/me?fields=id,name&access_token=$T" | sed "s/$T/***/g"; echo
           echo "--- graph.facebook.com contas do Instagram ligadas"
           curl -s "https://graph.facebook.com/v23.0/me/accounts?fields=name,instagram_business_account{username}&access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- conta do Instagram pelo id"
+          curl -s "https://graph.facebook.com/v23.0/17841400158670151?fields=id,username,followers_count,media_count&access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- limite de publicação"
+          curl -s "https://graph.facebook.com/v23.0/17841400158670151/content_publishing_limit?fields=config,quota_usage&access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- permissões da chave"
+          curl -s "https://graph.facebook.com/v23.0/me/permissions?access_token=$T" | sed "s/$T/***/g"; echo
