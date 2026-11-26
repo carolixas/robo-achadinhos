@@ -1,0 +1,19 @@
+name: Teste da chave do Instagram
+on: workflow_dispatch
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir a chave (sem mostrar a chave)
+        env:
+          T: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          echo "Tamanho da chave: ${#T} · começa com: ${T:0:4}"
+          echo "--- graph.instagram.com /me"
+          curl -s "https://graph.instagram.com/v23.0/me?fields=user_id,username,account_type&access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- graph.instagram.com limite de publicação"
+          curl -s "https://graph.instagram.com/v23.0/me/content_publishing_limit?fields=config,quota_usage&access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- graph.facebook.com /me"
+          curl -s "https://graph.facebook.com/v23.0/me?fields=id,name&access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- graph.facebook.com contas do Instagram ligadas"
+          curl -s "https://graph.facebook.com/v23.0/me/accounts?fields=name,instagram_business_account{username}&access_token=$T" | sed "s/$T/***/g"; echo
