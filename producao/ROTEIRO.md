@@ -90,4 +90,5 @@ Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em 
 3. Para cada post que virou aprovado: acrescente os produtos na aba **Produtos** (A nome · B loja · C preço número · D link de afiliado · E post id · F "Na fila" · G data de hoje · I link_canal se Shopee). Não repita produto que já está lá.
 4. Fila "publicado" → Pauta G = "Publicado", H = `{"markdown":"[abrir](<link>)"}`; aba **Posts**: nova linha (Nº seguinte com apóstrofo, tema, loja, formato, data, F "Ativa", G pasta_mac) se ainda não existir.
 5. Fila "erro" → Pauta G = "Erro" e I = a mensagem; avise a Carol.
-6. Commit/push da fila se mudou. Mensagem final só se algo mudou (1–3 linhas); se nada mudou: "sem novidades".
+6. Aba **Aprovar** (achadinhos avulsos pro canal): linha com F = "Aprovado", Observação (H) com "link de afiliado pronto" e que ainda não está na aba Produtos (compare pelo link) → nova linha em **Produtos**: A = Sugestão, B = Loja, C = Preço (número), D = o link de dentro da coluna E (só a URL), E = "canal", F = "Na fila", G = data de hoje, I = a URL depois de "canal: " na Observação (só Shopee tem). F = "Recusado" → não faz nada.
+7. Commit/push da fila se mudou. Mensagem final só se algo mudou (1–3 linhas); se nada mudou: "sem novidades".
