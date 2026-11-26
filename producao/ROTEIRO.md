@@ -1,0 +1,83 @@
+# Roteiro da produção diária — @achadosdascarois
+
+Meta do dia: **2 Reels + 1 carrossel**, prontos para a Carol aprovar na aba **Pauta** da planilha.
+Depois de aprovados, o GitHub publica sozinho no horário (fila `publicar/fila.json`).
+
+Horários padrão (Brasília): **Reels A 12:30 · Carrossel 18:00 · Reels B 20:30**.
+Id dos posts: `AAAA-MM-DD-reels-a`, `AAAA-MM-DD-carrossel`, `AAAA-MM-DD-reels-b`.
+
+## Regras fixas
+- Só LEIA as lojas: nunca comprar, carrinho, cupom, seguir loja, login, aceitar termos. Cookies: recusar não essenciais.
+- Tela de login/captcha/verificação: não resolver; pular aquela loja e avisar no fim.
+- Nunca inventar preço, nota, vendas ou link. Só o que leu na página.
+- Nunca ler nem mostrar `chaves-e-ajustes.txt`.
+- Trabalhe em abas próprias e feche as que abrir.
+
+## 1. Planejar
+1. Planilha "Central Achadinhos das Carois" (Sheets, id `c09e65e4-99af-4eee-84a0-4e8c1cac6e04`): chame o guide do conector Claude Docs com `["topic.sheets"]` e siga-o. Leia as abas **Pauta**, **Posts** e **Produtos**.
+2. Se a Pauta já tem os 3 posts de hoje, pare ("pauta de hoje já existe").
+3. Escolha 3 temas que não apareceram nos últimos 7 dias (Posts/Pauta). Ideias: home decor, cantinho do café, quarto aconchegante, banheiro spa, cozinha bonita, mesa posta, organização bonita, home office, luminárias, vasos e plantas, decor de Natal (até 25/12), presentes até R$ 50 (dezembro), varanda, quarto de bebê/criança (raramente).
+4. Lojas: **Reels A = Shopee**; **Reels B = Amazon nos dias pares, Mercado Livre nos ímpares**; **Carrossel = a loja que sobrou** (ou misto). AliExpress só se faltar produto.
+5. 6 produtos por post (mínimo 5). Nada repetido da aba Produtos nem dentro do dia.
+
+## 2. Achar os produtos (Chrome da Carol)
+Critérios: estética clean/aconchegante/"parece caro" (neutros, madeira, vidro, cerâmica, bouclê, palha, linho), preço até ~R$ 150 (ideal até R$ 60), nota ≥ 4,5, muitas vendas/avaliações (de preferência 500+), **foto bonita de ambiente** (vira o fundo do vídeo). Nada utilitário/feio, marca famosa, personagem ou réplica.
+- **Shopee**: abra https://shopee.com.br e, de dentro da página, rode
+  `fetch('/api/v4/search/search_items?by=sales&keyword=<termo>&limit=60&newest=0&order=desc&page_type=search&scenario=PAGE_GLOBAL_SEARCH&version=2').then(r=>r.json())`.
+  Em `items[].item_basic`: `name`, `price/100000` (R$), `item_rating.rating_star`, `historical_sold`, `image`, `images[]`, `shopid`, `itemid`.
+  Foto: `https://down-br.img.susercontent.com/file/<hash>`. Link: `https://shopee.com.br/product/<shopid>/<itemid>`.
+  Se o fetch for bloqueado (erro 90309999), espere 1 min e tente outro termo; ou leia https://shopee.com.br/search?keyword=<termo>&sortBy=sales.
+- **Amazon**: https://www.amazon.com.br/s?k=<termo> → página do produto. Preço `#corePrice_feature_div .a-offscreen`, nota `#acrPopover[title]`, avaliações `#acrCustomerReviewText`, foto `#landingImage[data-old-hires]` (e outras em `#altImages`). ASIN no link `/dp/<ASIN>`.
+- **Mercado Livre**: https://lista.mercadolivre.com.br/<termo-com-hifens> → página do produto. Preço, nota, vendidos e `meta[property="og:image"]`.
+
+## 3. Links de afiliado (gerar só para os escolhidos)
+- **Shopee**: https://affiliate.shopee.com.br/offer/custom_link → cole até 5 links de produto (um por linha) na caixa de texto (form_input), clique em "Obter link" e copie os `https://s.shopee.com.br/...`. ID de afiliado: 18315280280.
+- **Amazon** (tag `carolixas-20`): numa aba da amazon.com.br rode
+  `fetch('/associates/sitestripe/getShortUrl?longUrl='+encodeURIComponent('https://www.amazon.com.br/dp/<ASIN>?tag=carolixas-20')+'&marketplaceId=526970').then(r=>r.json())` → `shortUrl` (`https://amzn.to/...`).
+- **Mercado Livre**: na página do produto (logada), use a barra de afiliados do topo ("Compartilhar"/"Gerar link") e copie o `https://meli.la/...`.
+- Se não conseguir o link de afiliado de um produto, troque o produto.
+
+## 4. Baixar as fotos
+Para cada post, numa aba de qualquer loja, monte um zip **sem compressão** em JavaScript com as fotos (fetch de cada URL → Uint8Array; zip "store" com CRC32) e baixe com `<a download="material-<post_id>.zip">`. As CDNs (susercontent, media-amazon, mlstatic) permitem fetch.
+No Mac (device_bash): pasta do post `posts/NN-<slug>/` dentro de `Achadinhos Carolixas` (NN = próximo número depois do maior existente em `posts/`). `unzip` o zip de `~/mnt/Downloads` para `posts/NN-<slug>/material/`.
+Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em fundo claro como miniatura.
+
+## 5. Montar (no container)
+1. `add_repo` carolixas/robo-achadinhos com acesso **push**, clone, e use `producao/gerar.py`.
+2. `device_stage_files` das fotos do post e de 1 música da pasta `musicas/` (varie a música entre os posts; não repita a do dia anterior se der).
+3. Escreva `pauta.json` (formato no topo de `gerar.py`). Título curto e minúsculo, no estilo "achados home decor / da shopee :)", "cantinho do café / que parece caro :)". Itens: `nome` (2–3 palavras), `detalhe` (1–2 palavras), `preco` "R$ 43", `nota` "4,9", `vendas` "10 mil vendidos" (Amazon: "2 mil avaliações"), `loja`.
+4. Rode `python producao/gerar.py previa pauta.json`, **abra a previa.jpg com Read** e ajuste `fx`/`fy`/`zoom`/`y_texto` se o texto cobrir o produto ou o recorte estiver ruim. Repita até ficar bom.
+5. Reels: `python producao/gerar.py reels pauta.json` (gera `reels.mp4` e `reels-capa.jpg`). Carrossel: mesmo json com `"saida": "slides"` → `python producao/gerar.py carrossel car.json`. Confira 2–3 quadros/slides com Read.
+
+## 6. Publicar a mídia e a fila (repo)
+1. Copie para `docs/m/posts/<post_id>/`: Reels → `reels.mp4` e `capa.jpg`; carrossel → `01.jpg…NN.jpg`.
+2. Para cada produto **Shopee**, crie também a página de prévia do canal: `docs/m/<slug>.jpg` (foto 800×800) e `docs/l/<slug>/index.html` (copie o modelo de `docs/l/puff-pe-palito/index.html` trocando título, descrição, imagem e link).
+3. Acrescente o post em `publicar/fila.json`:
+   ```json
+   {"id": "<post_id>", "tipo": "reels"|"carrossel", "tema": "<tema>", "quando": "AAAA-MM-DDT12:30:00-03:00",
+    "status": "aguardando",
+    "legenda": "comenta QUERO pra receber todos os links 🤌🏻😮‍💨",
+    "video": "https://carolixas.github.io/robo-achadinhos/m/posts/<id>/reels.mp4",
+    "capa": "https://carolixas.github.io/robo-achadinhos/m/posts/<id>/capa.jpg",
+    "imagens": ["https://carolixas.github.io/robo-achadinhos/m/posts/<id>/01.jpg", "..."],
+    "pasta_mac": "posts/NN-<slug>",
+    "produtos": [{"nome": "almofada redonda bouclê", "preco": "R$ 43", "preco_num": 43.0, "loja": "Shopee",
+                  "link": "<link de afiliado>", "link_canal": "<página docs/l/... só Shopee>"}]}
+   ```
+   (carrossel não tem video/capa; Reels não tem imagens). Legenda: a linha do QUERO; pode ter 1 frase curta antes, sem hashtags em excesso (no máx. 3).
+4. `python producao/paginas.py previa <post_id>` para cada post. Commit e push. Espere ~1 min e confira que `https://carolixas.github.io/robo-achadinhos/m/posts/<id>/` abre (no Chrome).
+
+## 7. Guardar no Mac e avisar
+1. `device_commit_files`: vídeo/slides e um `legenda-e-links.txt` (legenda + lista numerada de produtos com links) em `posts/NN-<slug>/`.
+2. Aba **Pauta**: uma linha por post — A id · B "Reels"/"Carrossel" · C tema + loja · D horário ({"dateTime": ...}) · E `{"markdown":"[ver prévia](https://carolixas.github.io/robo-achadinhos/m/posts/<id>/)"}` · F "Aguardando" · G "Aguardando aprovação". Não mexa em outras linhas.
+3. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
+
+---
+
+# Sincronização (tarefa de hora em hora, na nuvem)
+1. Leia a aba Pauta e `publicar/fila.json` (clone com push).
+2. Pauta F = "Aprovado" e fila "aguardando" → fila `"status": "aprovado"`; Pauta G = "Na fila". F = "Recusado" → fila "recusado", G = "Recusado".
+3. Para cada post que virou aprovado: acrescente os produtos na aba **Produtos** (A nome · B loja · C preço número · D link de afiliado · E post id · F "Na fila" · G data de hoje · I link_canal se Shopee). Não repita produto que já está lá.
+4. Fila "publicado" → Pauta G = "Publicado", H = `{"markdown":"[abrir](<link>)"}`; aba **Posts**: nova linha (Nº seguinte com apóstrofo, tema, loja, formato, data, F "Ativa", G pasta_mac) se ainda não existir.
+5. Fila "erro" → Pauta G = "Erro" e I = a mensagem; avise a Carol.
+6. Commit/push da fila se mudou. Mensagem final só se algo mudou (1–3 linhas); se nada mudou: "sem novidades".
