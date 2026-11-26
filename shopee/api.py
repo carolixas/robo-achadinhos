@@ -27,7 +27,7 @@ def gql(query, variables=None):
 
 def buscar(termo, limite=20):
     q = """query($k:String,$l:Int){productOfferV2(keyword:$k,sortType:2,page:1,limit:$l){
-      nodes{itemId shopId productName price priceMin ratingStar sales imageUrl productLink offerLink commissionRate}}}"""
+      nodes{itemId shopId productName priceMin ratingStar sales imageUrl productLink offerLink commissionRate}}}"""
     return gql(q, {"k": termo, "l": limite})["productOfferV2"]["nodes"]
 
 
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         print("Faltam os segredos SHOPEE_APP_ID / SHOPEE_SECRET"); sys.exit(1)
     if sys.argv[1] == "buscar":
         for n in buscar(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 10):
-            print(f"{n['productName'][:60]} | R$ {n.get('priceMin') or n.get('price')} | {n.get('ratingStar')} | {n.get('sales')} vendidos | {n.get('offerLink')}")
+            print(f"{n['productName'][:60]} | R$ {n.get("priceMin")} | {n.get('ratingStar')} | {n.get('sales')} vendidos | {n.get('offerLink')}")
     elif sys.argv[1] == "link":
         for u in sys.argv[2:]:
             print(u, "->", link(u))
