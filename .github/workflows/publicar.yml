@@ -1,0 +1,34 @@
+name: Publicar no Instagram
+on:
+  schedule:
+    - cron: "*/20 10-23 * * *"   # a cada 20 min, 07h–20h59 (Brasília)
+    - cron: "*/20 0-1 * * *"     # 21h–22h59 (Brasília)
+  workflow_dispatch:
+    inputs:
+      teste:
+        description: "1 = só testa (cria e não publica)"
+        default: "0"
+permissions:
+  contents: write
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publicar posts aprovados que chegaram no horário
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TESTE: ${{ github.event.inputs.teste }}
+        run: python publicar/publicar.py
+      - name: Guardar o resultado
+        run: |
+          git config user.name "robo-achadinhos"
+          git config user.email "robo-achadinhos@users.noreply.github.com"
+          git add publicar/fila.json
+          git diff --cached --quiet || (git commit -m "Instagram: publicação $(date -u +%FT%TZ)" && git pull --rebase -q && git push)
