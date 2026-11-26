@@ -84,6 +84,13 @@ Só LER os painéis (nada de sacar, aceitar termos ou mudar configuração). Log
 Na aba **Resultados** da planilha: 4 linhas novas abaixo da última (A data de hoje · B loja · C período lido, ex. "ontem 26/11" · D cliques · E pedidos · F vendas R$ · G comissão R$ · H observação). Nunca apagar linhas antigas; não duplicar se já houver linhas de hoje. Nunca inventar número.
 Na mensagem da pauta, acrescente 1 linha: "Ontem: X cliques · Y vendas · R$ Z de comissão" (se houve venda, comece com 💸).
 
+## 9. Repor a fila do canal do WhatsApp (todo dia)
+O canal posta 1 achadinho a cada 30 min (≈32/dia) misturando categorias: **casa 40% · beleza 30% · eletrônico 20% · pet 10%** (coluna E da aba Produtos: "canal beleza", "canal eletrônico", "canal pet"; qualquer outro valor = casa).
+Conte quantos produtos de cada categoria ainda não foram enviados (H vazio). Se alguma categoria tiver menos de 2 dias de estoque (casa < 26, beleza < 20, eletrônico < 13, pet < 7), acrescente produtos novos dessa categoria no fim da aba Produtos (A nome · B loja · C preço · D link de afiliado · E categoria · F "Na fila" · G hoje · I página com foto se Shopee).
+- Shopee pela API (`shopee-busca.yml`): o `offerLink` já é o link de afiliado; pra ter foto no canal crie `docs/l/<slug>/index.html` (modelo `docs/l/puff-pe-palito/`) e acrescente `"<slug>": "<imageUrl>"` em `producao/fotos_canal.json` (o workflow baixa a foto sozinho).
+- Critérios: nota ≥ 4,6, vendas/avaliações ≥ 1.000, preço justo, foto bonita. **Nada de réplica** (ex.: fone genérico com logo JBL, "AirPods"/"Pods Pro" falsos), nada de marca usada sem ser a loja oficial em eletrônico. Beleza: marcas conhecidas ou loja oficial; nada de promessa de resultado.
+- Eletrônico bom na Amazon: Echo/Alexa, Fire TV, Kindle, soundcore, Xiaomi Redmi Buds, lâmpada smart. Pet: areia biodegradável, fonte/bebedouro, arranhador, brinquedos interativos.
+
 ## Lições do 1º dia (26/11)
 - **Shopee pode mostrar captcha** depois de ~10 buscas seguidas pela API (página `/verify/captcha`). Não resolva: espere, faça no máximo 5 buscas por rodada com 2 s entre elas, ou use outra loja nesse dia.
 - **Amazon funciona muito bem por fetch** de dentro de uma aba da amazon.com.br: `fetch('/s?k=<termo>')` → DOMParser → `div[data-component-type="s-search-result"]` (ASIN em `data-asin`, preço `.a-price .a-offscreen`, nota no `aria-label` "de 5 estrelas", avaliações no link `#customerReviews`, patrocinado `.puis-sponsored-label-text`). Fotos grandes: na página `/dp/<ASIN>` os `"hiRes":"https://..."` do HTML.
