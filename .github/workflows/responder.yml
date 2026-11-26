@@ -1,4 +1,4 @@
-name: Responder "comenta QUERO"
+name: Responder "comenta QUERO" + publicar no horário
 # O agendamento do GitHub atrasa muito (*/5 rodava ~1x por hora). Por isso cada execução
 # fica ~50 min no ar checando os comentários a cada 60 s, e uma nova entra a cada 30 min.
 on:
@@ -12,7 +12,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: responder
+  group: publicar
   cancel-in-progress: false
 jobs:
   responder:
@@ -30,9 +30,13 @@ jobs:
           fim=$(( $(date +%s) + 50*60 ))
           while [ $(date +%s) -lt $fim ]; do
             git pull --rebase -q || true
+            if [ "$TESTE" != "1" ]; then
+              python3 publicar/publicar.py || echo "publicar falhou esta rodada"
+              python3 producao/paginas.py vitrine || true
+            fi
             python3 publicar/responder.py || echo "falhou esta rodada"
-            git add publicar/respondidos.json
-            git diff --cached --quiet || (git commit -q -m "QUERO: respostas $(date -u +%FT%TZ)" && (git push -q || (git pull --rebase -q && git push -q)))
+            git add publicar/respondidos.json publicar/fila.json docs/index.html
+            git diff --cached --quiet || (git commit -q -m "Robô: QUERO/publicação $(date -u +%FT%TZ)" && (git push -q || (git pull --rebase -q && git push -q)))
             [ "$TESTE" = "1" ] && break
             sleep 60
           done

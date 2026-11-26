@@ -1,8 +1,5 @@
 name: Publicar no Instagram
 on:
-  schedule:
-    - cron: "*/20 10-23 * * *"   # a cada 20 min, 07h–20h59 (Brasília)
-    - cron: "*/20 0-1 * * *"     # 21h–22h59 (Brasília)
   workflow_dispatch:
     inputs:
       teste:
