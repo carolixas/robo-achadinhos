@@ -1,0 +1,40 @@
+name: Robô de ofertas
+
+on:
+  schedule:
+    # todo dia às 07h17 de Brasília (10h17 UTC), antes das sugestões das 8h47
+    - cron: "17 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robo
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Buscar ofertas no AliExpress
+        env:
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+        run: python robo_nuvem.py
+
+      - name: Guardar resultado
+        run: |
+          git config user.name "robo-achadinhos"
+          git config user.email "robo@users.noreply.github.com"
+          git add sugestoes dados
+          git diff --cached --quiet || git commit -m "Ofertas de $(date +%F)"
+          git push
