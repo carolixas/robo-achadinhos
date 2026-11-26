@@ -51,6 +51,19 @@ if __name__ == "__main__":
     if sys.argv[1] == "buscar":
         for n in buscar(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 10):
             print(f"{n['productName'][:60]} | R$ {n.get('priceMin')} | {n.get('ratingStar')} | {n.get('sales')} vendidos | {n.get('offerLink')}")
+    elif sys.argv[1] == "salvar":
+        # python shopee/api.py salvar "termo 1, termo 2" -> producao/shopee_busca.json
+        import datetime
+        termos = [t.strip() for t in sys.argv[2].split(",") if t.strip()]
+        saida = {"gerado_em": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z", "buscas": {}}
+        for t in termos:
+            try:
+                saida["buscas"][t] = buscar(t, 40)
+            except Exception as e:
+                saida["buscas"][t] = {"erro": str(e)[:300]}
+        destino = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "producao", "shopee_busca.json")
+        json.dump(saida, open(destino, "w"), ensure_ascii=False, indent=1)
+        print("ok", {t: (len(v) if isinstance(v, list) else v) for t, v in saida["buscas"].items()})
     elif sys.argv[1] == "link":
         for u in sys.argv[2:]:
             print(u, "->", link(u))

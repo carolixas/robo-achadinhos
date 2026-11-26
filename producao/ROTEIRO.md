@@ -22,7 +22,8 @@ Id dos posts: `AAAA-MM-DD-reels-a`, `AAAA-MM-DD-carrossel`, `AAAA-MM-DD-reels-b`
 
 ## 2. Achar os produtos (Chrome da Carol)
 Critérios: estética clean/aconchegante/"parece caro" (neutros, madeira, vidro, cerâmica, bouclê, palha, linho), preço até ~R$ 150 (ideal até R$ 60), nota ≥ 4,5, muitas vendas/avaliações (de preferência 500+), **foto bonita de ambiente** (vira o fundo do vídeo). Nada utilitário/feio, marca famosa, personagem ou réplica.
-- **Shopee**: abra https://shopee.com.br e, de dentro da página, rode
+- **Shopee (preferido: API oficial, sem captcha)**: dispare `gh api -X POST repos/carolixas/robo-achadinhos/actions/workflows/shopee-busca.yml/dispatches -f ref=main -f "inputs[termos]=termo 1, termo 2, termo 3"`, espere ~1 min, `git pull` e leia `producao/shopee_busca.json` (por termo: itemId, shopId, productName, priceMin, ratingStar, sales, imageUrl, offerLink = **link de afiliado pronto**, commissionRate). Foto: imageUrl. Não precisa do passo 3 pra Shopee. Pra montar uma grade de fotos, abra as imageUrl numa aba do Chrome (innerHTML) como nas outras lojas.
+- **Shopee (reserva, se a API falhar)**: abra https://shopee.com.br e, de dentro da página, rode
   `fetch('/api/v4/search/search_items?by=sales&keyword=<termo>&limit=60&newest=0&order=desc&page_type=search&scenario=PAGE_GLOBAL_SEARCH&version=2').then(r=>r.json())`.
   Em `items[].item_basic`: `name`, `price/100000` (R$), `item_rating.rating_star`, `historical_sold`, `image`, `images[]`, `shopid`, `itemid`.
   Foto: `https://down-br.img.susercontent.com/file/<hash>`. Link: `https://shopee.com.br/product/<shopid>/<itemid>`.
