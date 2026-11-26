@@ -23,3 +23,8 @@ jobs:
           curl -s "https://graph.facebook.com/v23.0/17841400158670151/content_publishing_limit?fields=config,quota_usage&access_token=$T" | sed "s/$T/***/g"; echo
           echo "--- permissões da chave"
           curl -s "https://graph.facebook.com/v23.0/me/permissions?access_token=$T" | sed "s/$T/***/g"; echo
+          echo "--- últimos posts e comentários (só leitura)"
+          curl -s "https://graph.facebook.com/v23.0/17841400158670151/media?fields=id,timestamp,comments_count,permalink&limit=3&access_token=$T" | sed "s/$T/***/g"; echo
+          MID=$(curl -s "https://graph.facebook.com/v23.0/17841400158670151/media?fields=id&limit=1&access_token=$T" | python3 -c "import sys,json;print(json.load(sys.stdin)['data'][0]['id'])")
+          curl -s "https://graph.facebook.com/v23.0/$MID/comments?fields=id,username,timestamp&limit=3&access_token=$T" | sed "s/$T/***/g"; echo
+

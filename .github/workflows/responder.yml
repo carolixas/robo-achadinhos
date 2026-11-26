@@ -1,0 +1,32 @@
+name: Responder "comenta QUERO"
+on:
+  schedule:
+    - cron: "*/5 11-23 * * *"   # 08h–20h59 (Brasília)
+    - cron: "*/5 0-2 * * *"     # 21h–23h59 (Brasília)
+  workflow_dispatch:
+    inputs:
+      teste:
+        description: "1 = só lista, não responde"
+        default: "0"
+permissions:
+  contents: write
+concurrency:
+  group: responder
+  cancel-in-progress: false
+jobs:
+  responder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Responder comentários pedindo os links
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TESTE: ${{ github.event.inputs.teste }}
+        run: python3 publicar/responder.py
+      - name: Guardar quem já foi respondido
+        run: |
+          git config user.name "robo-achadinhos"
+          git config user.email "robo-achadinhos@users.noreply.github.com"
+          git add publicar/respondidos.json
+          git diff --cached --quiet || (git commit -q -m "QUERO: respostas $(date -u +%FT%TZ)" && git pull --rebase -q && git push -q)
