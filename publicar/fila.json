@@ -237,7 +237,7 @@
     "tipo": "carrossel",
     "tema": "luzes aconchegantes da Amazon",
     "quando": "2026-11-27T18:00:00-03:00",
-    "status": "aprovado",
+    "status": "publicado",
     "legenda": "luzinha quente = casa aconchegante na hora 🕯️\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
     "imagens": [
       "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-27-carrossel/01.jpg",
@@ -292,7 +292,10 @@
         "loja": "Amazon",
         "link": "https://amzn.to/3VKM9nb"
       }
-    ]
+    ],
+    "media_id": "18144254029620755",
+    "link": "https://www.instagram.com/p/DgQmKy1jb6c/",
+    "publicado_em": "2026-11-27T18:00-03:00"
   },
   {
     "id": "2026-11-27-reels-b",
