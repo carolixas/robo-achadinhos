@@ -302,7 +302,7 @@
     "tipo": "reels",
     "tema": "plantas artificiais do Mercado Livre",
     "quando": "2026-11-27T20:30:00-03:00",
-    "status": "aprovado",
+    "status": "publicado",
     "legenda": "ninguém vai acreditar que é artificial 🌿\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
     "video": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-27-reels-b/reels.mp4",
     "capa": "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-27-reels-b/capa.jpg",
@@ -350,6 +350,10 @@
         "loja": "Mercado Livre",
         "link": "https://meli.la/2Tt6v9i"
       }
-    ]
+    ],
+    "teste_reels": true,
+    "media_id": "17867637567691964",
+    "link": "https://www.instagram.com/reel/DgQ3TMPKhbm/",
+    "publicado_em": "2026-11-27T20:30-03:00"
   }
 ]
