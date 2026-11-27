@@ -1,5 +1,7 @@
 # Roteiro da produção diária — @achadosdascarois
 
+**Chrome: use SEMPRE o do PC Windows** (list_connected_browsers → select_browser no osPlatform "Windows"). O MacBook não é mais usado.
+
 Meta do dia: **2 Reels + 1 carrossel**, prontos para a Carol aprovar na aba **Pauta** da planilha.
 Depois de aprovados, o GitHub publica sozinho no horário (fila `publicar/fila.json`).
 
@@ -41,12 +43,12 @@ Critérios: estética clean/aconchegante/"parece caro" (neutros, madeira, vidro,
 
 ## 4. Baixar as fotos
 Para cada post, numa aba de qualquer loja, monte um zip **sem compressão** em JavaScript com as fotos (fetch de cada URL → Uint8Array; zip "store" com CRC32) e baixe com `<a download="material-<post_id>.zip">`. As CDNs (susercontent, media-amazon, mlstatic) permitem fetch.
-No Mac (device_bash): pasta do post `posts/NN-<slug>/` dentro de `Achadinhos Carolixas` (NN = próximo número depois do maior existente em `posts/`). `unzip` o zip de `~/mnt/Downloads` para `posts/NN-<slug>/material/`.
+(Desde 27/11 tudo roda no **PC Windows** da Carol, não no Mac.) Jeito preferido, sem zip: liste as URLs em `producao/material_pedido.json` (`{"<post_id>": {"<arquivo>.jpg": "<url>", ...}}`), dispare `gh api -X POST repos/carolixas/robo-achadinhos/actions/workflows/material.yml/dispatches -f ref=main`, espere ~1 min, `git pull` e as fotos estarão em `producao/material/<post_id>/`.
 Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em fundo claro como miniatura.
 
 ## 5. Montar (no container)
 1. `add_repo` carolixas/robo-achadinhos com acesso **push**, clone, e use `producao/gerar.py`.
-2. `device_stage_files` das fotos do post e de 1 música da pasta `musicas/` (varie a música entre os posts; não repita a do dia anterior se der).
+2. Música: `device_stage_files` de 1 música da pasta `musicas/` dentro da pasta conectada do PC (`Documentos\Achadinhos Carolixas\musicas`; o caminho exato vem de `get_device_info`). Varie a música entre os posts; não repita a do dia anterior se der.
 3. Escreva `pauta.json` (formato no topo de `gerar.py`). Título curto e minúsculo, no estilo "achados home decor / da shopee :)", "cantinho do café / que parece caro :)". Itens: `nome` (2–3 palavras), `detalhe` (1–2 palavras), `preco` "R$ 43", `nota` "4,9", `vendas` "10 mil vendidos" (Amazon: "2 mil avaliações"), `loja`.
 4. Rode `python producao/gerar.py previa pauta.json`, **abra a previa.jpg com Read** e ajuste `fx`/`fy`/`zoom`/`y_texto` se o texto cobrir o produto ou o recorte estiver ruim. Repita até ficar bom.
 5. Reels: `python producao/gerar.py reels pauta.json` (gera `reels.mp4` e `reels-capa.jpg`). Carrossel: mesmo json com `"saida": "slides"` → `python producao/gerar.py carrossel car.json`. Confira 2–3 quadros/slides com Read.
@@ -69,10 +71,10 @@ Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em 
    (carrossel não tem video/capa; Reels não tem imagens). Legenda: a linha do QUERO; pode ter 1 frase curta antes, sem hashtags em excesso (no máx. 3).
 4. `python producao/paginas.py previa <post_id>` para cada post. Commit e push. Espere ~1 min e confira que `https://carolixas.github.io/robo-achadinhos/m/posts/<id>/` abre (no Chrome).
 
-## 7. Guardar no Mac e avisar
-1. `device_commit_files`: vídeo/slides e um `legenda-e-links.txt` (legenda + lista numerada de produtos com links) em `posts/NN-<slug>/`.
+## 7. Guardar no PC e avisar
+1. (Opcional) `device_commit_files`: vídeo/slides e um `legenda-e-links.txt` (legenda + lista numerada de produtos com links) em `posts/NN-<slug>/` dentro da pasta conectada do PC. Se falhar, siga sem isso.
 2. Aba **Pauta**: uma linha por post — A id · B "Reels"/"Carrossel" · C tema + loja · D horário ({"dateTime": ...}) · E `{"markdown":"[ver prévia](https://carolixas.github.io/robo-achadinhos/m/posts/<id>/)"}` · F "Aguardando" · G "Aguardando aprovação". Não mexa em outras linhas.
-3. **Agende a produção de amanhã** (a produção roda na conversa principal com a Carol, porque tarefas com pastas do Mac fecham em 5 s): `send_later` para amanhã 08:13 `[America/Sao_Paulo]`, nome "Produção diária: 2 Reels + 1 carrossel", initiation `human_schedule`, com a mesma mensagem que te acordou hoje. Confira com `list_triggers` que ficou 1 só.
+3. **Agende a produção de amanhã** (a produção roda na conversa do PC com a Carol, porque tarefas com pastas fecham em 5 s): `send_later` para amanhã 08:13 `[America/Sao_Paulo]`, nome "Produção diária: 2 Reels + 1 carrossel", initiation `human_schedule`, com a mesma mensagem que te acordou hoje. Confira com `list_triggers` que ficou 1 só.
 4. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
 
 ## 8. Resultados dos links (todo dia, depois de avisar a pauta)
