@@ -26,7 +26,7 @@ NUM = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️�
 def montar_dm(post):
     linhas = ["oii! que bom que você gostou 🤍", ""]
     tema = post.get("tema", "").strip()
-    linhas += [f"aqui estão os links dos achadinhos{(' de ' + tema.lower()) if tema else ''} ✨", ""]
+    linhas += [f"aqui estão os links dos achadinhos{(' de ' + tema[:1].lower() + tema[1:]) if tema else ''} ✨", ""]
     for i, p in enumerate(post.get("produtos", [])[:10]):
         linhas += [f"{NUM[i]} {p['nome']} · {p.get('preco', '')}".rstrip(" ·"), f"👉 {p['link']}", ""]
     linhas += [f"quer mais achados assim? segue o canal 👉 {CANAL}"]
