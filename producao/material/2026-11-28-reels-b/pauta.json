@@ -1,0 +1,75 @@
+{
+ "titulo": [
+  "presentinhos até R$ 50",
+  "da amazon :)"
+ ],
+ "capa": {
+  "imagem": "a1.jpg",
+  "fx": 0.35,
+  "fy": 0.5
+ },
+ "itens": [
+  {
+   "imagem": "a2.jpg",
+   "miniatura": "a1.jpg",
+   "nome": "difusor de aromas",
+   "detalhe": "chá branco",
+   "preco": "R$ 17",
+   "nota": "4,7",
+   "vendas": "1,2 mil avaliações",
+   "loja": "Amazon"
+  },
+  {
+   "imagem": "b1.jpg",
+   "miniatura": "b2.jpg",
+   "nome": "copinhos de café",
+   "detalhe": "parede dupla",
+   "preco": "R$ 48",
+   "nota": "4,6",
+   "vendas": "941 avaliações",
+   "loja": "Amazon"
+  },
+  {
+   "imagem": "c2.jpg",
+   "miniatura": "c1.jpg",
+   "nome": "tábua de bambu",
+   "detalhe": "com alça",
+   "preco": "R$ 23",
+   "nota": "4,7",
+   "vendas": "1,8 mil avaliações",
+   "loja": "Amazon"
+  },
+  {
+   "imagem": "d1-branco.jpg",
+   "miniatura": "d1.jpg",
+   "nome": "caneca de vidro",
+   "detalhe": "com filtro",
+   "preco": "R$ 42",
+   "nota": "4,8",
+   "vendas": "138 avaliações",
+   "loja": "Amazon"
+  },
+  {
+   "imagem": "e2-branco.jpg",
+   "miniatura": "e2.jpg",
+   "nome": "porta-copos",
+   "detalhe": "que seca sozinho",
+   "preco": "R$ 27",
+   "nota": "4,8",
+   "vendas": "435 avaliações",
+   "loja": "Amazon"
+  },
+  {
+   "imagem": "f1-branco.jpg",
+   "miniatura": "f1.jpg",
+   "nome": "kit de pincéis",
+   "detalhe": "Eudora",
+   "preco": "R$ 49",
+   "nota": "4,8",
+   "vendas": "204 avaliações",
+   "loja": "Amazon"
+  }
+ ],
+ "musica": "../../../../prod/musicas/aesthetic.m4a",
+ "saida": "reels.mp4"
+}

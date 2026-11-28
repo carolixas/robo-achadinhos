@@ -1,0 +1,52 @@
+{
+ "titulo": [
+  "varanda aconchegante",
+  "do mercado livre :)"
+ ],
+ "capa": {
+  "imagem": "lanterna4.jpg",
+  "fx": 0.5,
+  "fy": 0.5
+ },
+ "itens": [
+  {
+   "imagem": "rede1.jpg",
+   "nome": "rede de descanso",
+   "detalhe": "de algodão",
+   "preco": "R$ 79"
+  },
+  {
+   "imagem": "cesto1.jpg",
+   "nome": "cachepô",
+   "detalhe": "de fibra natural",
+   "preco": "R$ 46"
+  },
+  {
+   "imagem": "lanterna3.jpg",
+   "nome": "lanterna",
+   "detalhe": "com led",
+   "preco": "R$ 60"
+  },
+  {
+   "imagem": "futon2.jpg",
+   "nome": "almofada futon",
+   "detalhe": "pra cadeira",
+   "preco": "R$ 46",
+   "layout": "branco"
+  },
+  {
+   "imagem": "sino1.jpg",
+   "nome": "mensageiro dos ventos",
+   "detalhe": "de bambu",
+   "preco": "R$ 35",
+   "layout": "branco"
+  },
+  {
+   "imagem": "banq1.jpg",
+   "nome": "banqueta",
+   "detalhe": "de madeira",
+   "preco": "R$ 76"
+  }
+ ],
+ "saida": "slides"
+}

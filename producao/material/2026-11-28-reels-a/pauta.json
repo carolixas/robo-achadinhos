@@ -1,0 +1,73 @@
+{
+ "titulo": [
+  "cantinho aconchegante",
+  "da shopee :)"
+ ],
+ "capa": {
+  "imagem": "s3.jpg",
+  "fx": 0.55,
+  "fy": 0.42
+ },
+ "itens": [
+  {
+   "imagem": "s1.jpg",
+   "miniatura": "s1.jpg",
+   "nome": "manta de tricô",
+   "detalhe": "pro sofá",
+   "preco": "R$ 60",
+   "nota": "4,9",
+   "vendas": "800 vendidos",
+   "loja": "Shopee",
+   "a_partir": true
+  },
+  {
+   "imagem": "s2-branco.jpg",
+   "miniatura": "s2.jpg",
+   "nome": "capas de almofada",
+   "detalhe": "linho · kit 4",
+   "preco": "R$ 40",
+   "nota": "4,9",
+   "vendas": "3 mil vendidos",
+   "loja": "Shopee",
+   "a_partir": true
+  },
+  {
+   "imagem": "s3.jpg",
+   "miniatura": "s3.jpg",
+   "zoom": 1.3,
+   "nome": "mesinha de canto",
+   "detalhe": "pé palito",
+   "preco": "R$ 35",
+   "nota": "4,8",
+   "vendas": "1 mil vendidos",
+   "loja": "Shopee",
+   "a_partir": true,
+   "fx": 0.5,
+   "fy": 0.6
+  },
+  {
+   "imagem": "s4.jpg",
+   "miniatura": "s4.jpg",
+   "nome": "luminária de piso",
+   "detalhe": "de madeira",
+   "preco": "R$ 55",
+   "nota": "4,9",
+   "vendas": "286 vendidos",
+   "loja": "Shopee",
+   "a_partir": true
+  },
+  {
+   "imagem": "s5.jpg",
+   "miniatura": "s5.jpg",
+   "nome": "peseira de tricô",
+   "detalhe": "trançada",
+   "preco": "R$ 34",
+   "nota": "4,9",
+   "vendas": "1,5 mil vendidos",
+   "loja": "Shopee",
+   "a_partir": true
+  }
+ ],
+ "musica": "../../../../prod/musicas/beautiful-lofi.m4a",
+ "saida": "reels.mp4"
+}
