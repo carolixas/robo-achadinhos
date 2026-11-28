@@ -418,7 +418,7 @@
     "tipo": "carrossel",
     "tema": "varanda aconchegante do Mercado Livre",
     "quando": "2026-11-28T18:00:00-03:00",
-    "status": "aprovado",
+    "status": "publicado",
     "legenda": "varanda pronta pro verão, sem gastar muito 🌿\n\ncomenta QUERO pra receber todos os links 🤌🏻😮‍💨",
     "imagens": [
       "https://carolixas.github.io/robo-achadinhos/m/posts/2026-11-28-carrossel/01.jpg",
@@ -473,7 +473,10 @@
         "loja": "Mercado Livre",
         "link": "https://meli.la/32jpzuC"
       }
-    ]
+    ],
+    "media_id": "18031825121948535",
+    "link": "https://www.instagram.com/p/DgTK_Y_iaeK/",
+    "publicado_em": "2026-11-28T18:00-03:00"
   },
   {
     "id": "2026-11-28-reels-b",
