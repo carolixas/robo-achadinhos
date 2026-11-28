@@ -29,11 +29,11 @@ def montar_dm(post):
     linhas += [f"aqui estão os links dos achadinhos{(' de ' + tema.lower()) if tema else ''} ✨", ""]
     for i, p in enumerate(post.get("produtos", [])[:10]):
         linhas += [f"{NUM[i]} {p['nome']} · {p.get('preco', '')}".rstrip(" ·"), f"👉 {p['link']}", ""]
-    linhas += [f"💚 entra no canal pra receber achadinhos todo dia: {CANAL}"]
+    linhas += [f"quer mais achados assim? segue o canal 👉 {CANAL}"]
     texto = "\n".join(linhas)
     if len(texto) > 990:  # limite da DM do Instagram (1000)
         texto = ("oii! que bom que você gostou 🤍\n\naqui estão todos os links desse post ✨\n"
-                 f"👉 {VITRINE}#{post['id']}\n\n💚 canal de achadinhos: {CANAL}")
+                 f"👉 {VITRINE}#{post['id']}\n\nquer mais achados assim? segue o canal 👉 {CANAL}")
     return texto
 
 
