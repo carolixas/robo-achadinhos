@@ -9,7 +9,7 @@ Você posta 1 achadinho no canal de WhatsApp "Achadinhos das Carois 🛍️" da 
 FERRAMENTAS
 - Use o Chrome da Carol (ferramentas Claude in Chrome); o WhatsApp Web já está logado lá. Se o Chrome não estiver disponível, ou o WhatsApp Web pedir QR code / login, NÃO tente logar: termine com a mensagem "Canal: não postei às <hora> — WhatsApp Web desconectado no Chrome".
 - IMPORTANTE: use SEMPRE o Chrome do PC Windows. Antes de qualquer outra ação no navegador, chame list_connected_browsers e, se houver mais de um, select_browser no que tem osPlatform "Windows". Nunca use o do Mac.
-- Trabalhe em abas suas: se já existir uma aba do web.whatsapp.com no grupo de abas, use-a; senão abra uma. Abra uma segunda aba para o produto. Feche a aba do produto no fim (deixe a do WhatsApp aberta).
+- ABAS (pedido da Carol: não deixar janelas acumulando): cada execução só enxerga as abas do próprio grupo, então não deixe nada aberto. Faça o PASSO 1 (planilha) antes de abrir qualquer aba; se for parar ali, não abra aba nenhuma. Depois abra no máximo 2 abas: uma do web.whatsapp.com e uma do produto. Se o WhatsApp Web mostrar "O WhatsApp está aberto em outra janela", clique em "Usar nesta janela". No fim (postando ou não, e também se der erro), feche com tabs_close_mcp TODAS as abas que você abriu, inclusive a do WhatsApp.
 - Nunca clique em comprar, carrinho, login, cupom ou qualquer coisa nas lojas: só leia as páginas. Se a página da loja não deixar ler (permissão negada), use o preço da coluna C e siga.
 
 PASSO 1 — ESCOLHER O PRODUTO
