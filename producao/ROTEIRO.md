@@ -2,8 +2,8 @@
 
 **Chrome: use SEMPRE o do PC Windows** (list_connected_browsers → select_browser no osPlatform "Windows"). O MacBook não é mais usado.
 
-Meta do dia: **2 Reels + 1 carrossel**, prontos para a Carol aprovar na aba **Pauta** da planilha.
-Depois de aprovados, o GitHub publica sozinho no horário (fila `publicar/fila.json`).
+Meta do dia: **2 Reels + 1 carrossel**, já **aprovados pela produção** na aba **Pauta** da planilha (decisão da Carol em 28/11/2026: a produção aprova sozinha; ela só recusa se quiser, mudando F para "Recusado" antes do horário).
+A sincronização de hora em hora passa os aprovados para a fila e o GitHub publica sozinho no horário (fila `publicar/fila.json`).
 
 Horários padrão (Brasília): **Reels A 12:30 · Carrossel 18:00 · Reels B 20:30**.
 Id dos posts: `AAAA-MM-DD-reels-a`, `AAAA-MM-DD-carrossel`, `AAAA-MM-DD-reels-b`.
@@ -73,9 +73,9 @@ Use 1 foto de ambiente por produto como fundo e, se tiver, a foto do produto em 
 
 ## 7. Guardar no PC e avisar
 1. (Opcional) `device_commit_files`: vídeo/slides e um `legenda-e-links.txt` (legenda + lista numerada de produtos com links) em `posts/NN-<slug>/` dentro da pasta conectada do PC. Se falhar, siga sem isso.
-2. Aba **Pauta**: uma linha por post — A id · B "Reels"/"Carrossel" · C tema + loja · D horário ({"dateTime": ...}) · E `{"markdown":"[ver prévia](https://carolixas.github.io/robo-achadinhos/m/posts/<id>/)"}` · F "Aguardando" · G "Aguardando aprovação". Não mexa em outras linhas.
+2. Aba **Pauta**: uma linha por post — A id · B "Reels"/"Carrossel" · C tema + loja · D horário ({"dateTime": ...}) · E `{"markdown":"[ver prévia](https://carolixas.github.io/robo-achadinhos/m/posts/<id>/)"}` · F "Aprovado" · G "Aguardando aprovação" (a sincronização troca G para "Na fila"). Só aprove post que passou na conferência da seção 5 (quadros/slides conferidos, links de afiliado e preços lidos nas lojas); se algum post ficou com problema, deixe esse com F "Aguardando" e diga o motivo na mensagem. Não mexa em outras linhas.
 3. **Agende a produção de amanhã** (a produção roda na conversa do PC com a Carol, porque tarefas com pastas fecham em 5 s): `send_later` para amanhã 08:13 `[America/Sao_Paulo]`, nome "Produção diária: 2 Reels + 1 carrossel", initiation `human_schedule`, com a mesma mensagem que te acordou hoje. Confira com `list_triggers` que ficou 1 só.
-4. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Aprova na aba Pauta (tem prévia de cada um) que eu publico sozinha no horário." Se algo falhou, diga o quê.
+4. Mensagem final (vira notificação): "Pauta de amanhã/hoje pronta 👇" + 1 linha por post (tipo · tema · horário) + "Já deixei aprovado; se não curtir algum, muda pra Recusado na aba Pauta antes do horário (tem prévia de cada um)." Se algo falhou, diga o quê.
 
 ## 8. Resultados dos links (todo dia, depois de avisar a pauta)
 Só LER os painéis (nada de sacar, aceitar termos ou mudar configuração). Login/captcha: anotar "precisa login" e seguir.
